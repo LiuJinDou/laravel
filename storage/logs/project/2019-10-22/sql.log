@@ -1,0 +1,318 @@
+ execution time: 9.98ms; select * from `admins` where `name` = "admin" limit 1
+
+ execution time: 1.38ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.34ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.21ms; select * from `privilege_group`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.39ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.58ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.27ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.46ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.63ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.33ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.43ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.43ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.29ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.64ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.7ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.52ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.46ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.53ms; update `consume` set `amount` = "85179" where `id` = "213"
+
+ execution time: 0.38ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571726509", "2", "易通行", "2019-10-22", "400", "", "213", "良乡南关——常营", "花呗")
+
+ execution time: 1.46ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.38ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.42ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.48ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.24ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.47ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.6ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.42ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.66ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.46ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.51ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.29ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.49ms; update `consume` set `amount` = "691908" where `id` = "209"
+
+ execution time: 0.34ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571726544", "2", "俊其便利店2点", "2019-10-22", "700", "", "209", "手抓饼", "花呗")
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.58ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.49ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.45ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.52ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.44ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.63ms; update `consume` set `amount` = "693388" where `id` = "209"
+
+ execution time: 59.88ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571726588", "2", "饿了么", "2019-10-22", "1480", "", "209", "梁小猴铁板炒饭", "花呗")
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.46ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.57ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.54ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.39ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.42ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.34ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.41ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.56ms; select * from `consume_detail` limit 10 offset 160
+
+ execution time: 0.38ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.93ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 1.15ms; update `consume` set `update_at` = "1571757782" where `id` = "1"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571757782" where `id` = "2"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571757782" where `id` = "8"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 0.44ms; update `consume` set `update_at` = "1571757782" where `id` = "19"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571757782" where `id` = "27"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 0.39ms; update `consume` set `update_at` = "1571757782" where `id` = "31"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 0.44ms; update `consume` set `update_at` = "1571757782" where `id` = "33"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571757782" where `id` = "126"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "128"
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 32.12ms; update `consume` set `update_at` = "1571757782" where `id` = "164"
+
+ execution time: 0.65ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1571757782" where `id` = "190"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "202"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.33ms; update `consume` set `real_amount` = "179286", `update_at` = "1571757782" where `id` = "209"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1571757782" where `id` = "210"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 0.39ms; update `consume` set `update_at` = "1571757782" where `id` = "211"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.41ms; update `consume` set `real_amount` = "72064", `update_at` = "1571757782" where `id` = "213"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1571757782" where `id` = "214"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571757782" where `id` = "215"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "219"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 1.49ms; update `consume` set `update_at` = "1571757782" where `id` = "221"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571757782" where `id` = "223"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "236"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "255"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571757782" where `id` = "381"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1571757782" where `id` = "535"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571757782" where `id` = "545"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571757782" where `id` = "546"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571757782" where `id` = "547"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571757782" where `id` = "548"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 1.2ms; update `consume` set `update_at` = "1571757782" where `id` = "549"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 0.39ms; update `consume` set `update_at` = "1571757782" where `id` = "550"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571757782" where `id` = "551"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571757782" where `id` = "552"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571757782" where `id` = "553"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571757782" where `id` = "554"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "555"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571757782" where `id` = "556"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571757782" where `id` = "557"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 1.08ms; update `consume` set `update_at` = "1571757782" where `id` = "560"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571757782" where `id` = "561"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571757782" where `id` = "563"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571757782" where `id` = "566"
+

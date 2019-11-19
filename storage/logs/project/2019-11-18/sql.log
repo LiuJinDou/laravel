@@ -1,0 +1,2816 @@
+ execution time: 36.9ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 4.55ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.44ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.89ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.87ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 42.99ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.84ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.87ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 29.92ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 33.62ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36.91ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.71ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.87ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 29.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 14.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 9.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 19.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.78ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 40.92ms; select exists(select * from `article` where `title` like "%框架%") as `exists`
+
+ execution time: 37.67ms; select exists(select * from `article` where `title` like "%PHP%") as `exists`
+
+ execution time: 7.57ms; select count(*) as aggregate from `article` where `title` like "%PHP%"
+
+ execution time: 6.85ms; select * from `article` where `title` like "%PHP%" limit 15 offset 0
+
+ execution time: 29.59ms; select exists(select * from `article` where `title` like "%Linux%") as `exists`
+
+ execution time: 10.61ms; select count(*) as aggregate from `article` where `title` like "%Linux%"
+
+ execution time: 7.82ms; select * from `article` where `title` like "%Linux%" limit 15 offset 0
+
+ execution time: 30.54ms; select exists(select * from `article` where `title` like "%MYSQL%") as `exists`
+
+ execution time: 30.63ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 21.56ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 5.54ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.97ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 4.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 4.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 35.6ms; select exists(select * from `article` where `title` like "%美食%") as `exists`
+
+ execution time: 29.76ms; select exists(select * from `article` where `title` like "%习惯%") as `exists`
+
+ execution time: 7.1ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.42ms; select count(*) as aggregate from `article` where `title` like "%习惯%"
+
+ execution time: 7.49ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 9.9ms; select * from `article` where `title` like "%习惯%" limit 15 offset 0
+
+ execution time: 36.93ms; select exists(select * from `article` where `title` like "%自律%") as `exists`
+
+ execution time: 6.65ms; select count(*) as aggregate from `article` where `title` like "%自律%"
+
+ execution time: 6.83ms; select * from `article` where `title` like "%自律%" limit 15 offset 0
+
+ execution time: 41.89ms; select exists(select * from `article` where `title` like "%心得笔记%") as `exists`
+
+ execution time: 36.27ms; select exists(select * from `article` where `title` like "%随心记录%") as `exists`
+
+ execution time: 82.88ms; select exists(select * from `article` where `title` like "%读后感%") as `exists`
+
+ execution time: 35.63ms; select * from `admins` where `name` = "dream" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 29.13ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 10.49ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 18.78ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20") and `type` = "2"
+
+ execution time: 6.78ms; select * from `privilege_group`
+
+ execution time: 33.48ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 27.97ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 7.43ms; select count(*) as aggregate from `roles`
+
+ execution time: 6.77ms; select count(*) as aggregate from `admins` where `admins`.`deleted_at` is null
+
+ execution time: 5.85ms; select count(*) as aggregate from `article`
+
+ execution time: 16.74ms; select count(*) as aggregate from `message` where `message`.`deleted_at` is null
+
+ execution time: 13.79ms; select count(*) as aggregate from `users`
+
+ execution time: 5.74ms; select count(*) as aggregate from `book` where `status` = "1"
+
+ execution time: 32.15ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 32.08ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 5.97ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 33.11ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 6.36ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 7.9ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 6.29ms; select `id`, `name` from `article_category`
+
+ execution time: 100.06ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.34ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.41ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.29ms; select `id`, `name` from `article_category`
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.33ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.38ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.28ms; select `id`, `name` from `article_category`
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.3ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.5ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.43ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.3ms; select `id`, `name` from `article_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 36.5ms; update `article` set `status` = "1" where (`id` = "13")
+
+ execution time: 1.47ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.53ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.65ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.29ms; select `id`, `name` from `article_category`
+
+ execution time: 1.66ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.69ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.49ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.49ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.53ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.43ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.35ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.27ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.29ms; select exists(select * from `article` where `id` = "13") as `exists`
+
+ execution time: 0.56ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 1.22ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.42ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.32ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.3ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.34ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.51ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 113.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 12.96ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 23.07ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 16.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.82ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 17.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 18.79ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.42ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.27ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 515.1ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 3.78ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 5.73ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20") and `type` = "2"
+
+ execution time: 2.33ms; select * from `privilege_group`
+
+ execution time: 7.66ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 128.98ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 15.44ms; select count(*) as aggregate from `roles`
+
+ execution time: 0.42ms; select count(*) as aggregate from `admins` where `admins`.`deleted_at` is null
+
+ execution time: 4.05ms; select count(*) as aggregate from `article`
+
+ execution time: 1.5ms; select count(*) as aggregate from `message` where `message`.`deleted_at` is null
+
+ execution time: 1.19ms; select count(*) as aggregate from `users`
+
+ execution time: 0.75ms; select count(*) as aggregate from `book` where `status` = "1"
+
+ execution time: 7.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.16ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.13ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.64ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 4.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.1ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.6ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.23ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.96ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.7ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.99ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.03ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.27ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.56ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.79ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 8.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.68ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.68ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.8ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.71ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 4.05ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.22ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.3ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 4.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.84ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 4.73ms; select exists(select * from `article` where `title` like "%读后感%") as `exists`
+
+ execution time: 3.79ms; select exists(select * from `article` where `title` like "%心得笔记%") as `exists`
+
+ execution time: 4.67ms; select exists(select * from `article` where `title` like "%随心记录%") as `exists`
+
+ execution time: 7.93ms; select exists(select * from `article` where `title` like "%习惯%") as `exists`
+
+ execution time: 1.09ms; select count(*) as aggregate from `article` where `title` like "%习惯%"
+
+ execution time: 3.27ms; select * from `article` where `title` like "%习惯%" limit 15 offset 0
+
+ execution time: 5.29ms; select exists(select * from `article` where `title` like "%自律%") as `exists`
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `title` like "%自律%"
+
+ execution time: 2.13ms; select * from `article` where `title` like "%自律%" limit 15 offset 0
+
+ execution time: 6.99ms; select exists(select * from `article` where `id` = "2") as `exists`
+
+ execution time: 1.26ms; select * from `article` where `id` = "2" limit 1
+
+ execution time: 11.4ms; select exists(select * from `article` where `id` = "7") as `exists`
+
+ execution time: 1.66ms; select * from `article` where `id` = "7" limit 1
+
+ execution time: 59.23ms; update `article` set `browse` = `browse` + 1 where `id` = "2"
+
+ execution time: 56.67ms; update `article` set `browse` = `browse` + 1 where `id` = "7"
+
+ execution time: 1.43ms; select max(`id`) as aggregate from `article` where `id` < "2"
+
+ execution time: 1.37ms; select max(`id`) as aggregate from `article` where `id` < "7"
+
+ execution time: 0.54ms; select `id`, `title` from `article` where `id` = "6" limit 1
+
+ execution time: 1.19ms; select `id`, `title` from `article` where `id` = "1" limit 1
+
+ execution time: 0.73ms; select min(`id`) as aggregate from `article` where `id` > "7"
+
+ execution time: 0.75ms; select min(`id`) as aggregate from `article` where `id` > "2"
+
+ execution time: 0.67ms; select `id`, `title` from `article` where `id` = "8" limit 1
+
+ execution time: 0.88ms; select `id`, `title` from `article` where `id` = "3" limit 1
+
+ execution time: 0.87ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 0.79ms; select count(*) as aggregate from `article` where `category_id` = "3"
+
+ execution time: 1.05ms; select * from `article` where `category_id` = "3" limit 6 offset 0
+
+ execution time: 2.31ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 17.87ms; select exists(select * from `article` where `title` like "%美食%") as `exists`
+
+ execution time: 2.76ms; select exists(select * from `article` where `title` like "%框架%") as `exists`
+
+ execution time: 4.51ms; select exists(select * from `article` where `title` like "%PHP%") as `exists`
+
+ execution time: 1.04ms; select count(*) as aggregate from `article` where `title` like "%PHP%"
+
+ execution time: 1.17ms; select * from `article` where `title` like "%PHP%" limit 15 offset 0
+
+ execution time: 7.32ms; select exists(select * from `article` where `title` like "%Linux%") as `exists`
+
+ execution time: 0.68ms; select count(*) as aggregate from `article` where `title` like "%Linux%"
+
+ execution time: 2.15ms; select * from `article` where `title` like "%Linux%" limit 15 offset 0
+
+ execution time: 60.82ms; select exists(select * from `article` where `id` = "14") as `exists`
+
+ execution time: 4.22ms; select * from `article` where `id` = "14" limit 1
+
+ execution time: 2.63ms; update `article` set `browse` = `browse` + 1 where `id` = "14"
+
+ execution time: 1.2ms; select max(`id`) as aggregate from `article` where `id` < "14"
+
+ execution time: 1.1ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 0.52ms; select min(`id`) as aggregate from `article` where `id` > "14"
+
+ execution time: 2.08ms; select `id`, `title` from `article` where `id` != "14" order by RAND() limit 1
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 2.47ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 19.9ms; select exists(select * from `article` where `title` like "%MYSQL%") as `exists`
+
+ execution time: 3.51ms; select exists(select * from `article` where `id` = "8") as `exists`
+
+ execution time: 2.6ms; select * from `article` where `id` = "8" limit 1
+
+ execution time: 1.51ms; update `article` set `browse` = `browse` + 1 where `id` = "8"
+
+ execution time: 0.91ms; select max(`id`) as aggregate from `article` where `id` < "8"
+
+ execution time: 0.29ms; select `id`, `title` from `article` where `id` = "7" limit 1
+
+ execution time: 0.36ms; select min(`id`) as aggregate from `article` where `id` > "8"
+
+ execution time: 0.27ms; select `id`, `title` from `article` where `id` = "9" limit 1
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 3.74ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.46ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.44ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.79ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.44ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.39ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.3ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.3ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.78ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.11ms; select exists(select * from `article` where `title` like "%自律%") as `exists`
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `title` like "%自律%"
+
+ execution time: 0.57ms; select * from `article` where `title` like "%自律%" limit 15 offset 0
+
+ execution time: 2.83ms; select exists(select * from `article` where `title` like "%Linux%") as `exists`
+
+ execution time: 2.94ms; select exists(select * from `article` where `title` like "%MYSQL%") as `exists`
+
+ execution time: 5.1ms; select exists(select * from `article` where `title` like "%习惯%") as `exists`
+
+ execution time: 2.21ms; select count(*) as aggregate from `article` where `title` like "%Linux%"
+
+ execution time: 0.91ms; select count(*) as aggregate from `article` where `title` like "%习惯%"
+
+ execution time: 1.42ms; select * from `article` where `title` like "%Linux%" limit 15 offset 0
+
+ execution time: 2.66ms; select * from `article` where `title` like "%习惯%" limit 15 offset 0
+
+ execution time: 2.98ms; select exists(select * from `article` where `title` like "%美食%") as `exists`
+
+ execution time: 1.3ms; select exists(select * from `article` where `id` = "2") as `exists`
+
+ execution time: 0.52ms; select * from `article` where `id` = "2" limit 1
+
+ execution time: 0.77ms; update `article` set `browse` = `browse` + 1 where `id` = "2"
+
+ execution time: 0.33ms; select max(`id`) as aggregate from `article` where `id` < "2"
+
+ execution time: 0.4ms; select `id`, `title` from `article` where `id` = "1" limit 1
+
+ execution time: 0.34ms; select min(`id`) as aggregate from `article` where `id` > "2"
+
+ execution time: 0.33ms; select `id`, `title` from `article` where `id` = "3" limit 1
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `category_id` = "3"
+
+ execution time: 0.39ms; select * from `article` where `category_id` = "3" limit 6 offset 0
+
+ execution time: 10.16ms; select exists(select * from `article` where `id` = "14") as `exists`
+
+ execution time: 19.87ms; select exists(select * from `article` where `id` = "7") as `exists`
+
+ execution time: 0.64ms; select * from `article` where `id` = "7" limit 1
+
+ execution time: 3.1ms; select * from `article` where `id` = "14" limit 1
+
+ execution time: 1.23ms; update `article` set `browse` = `browse` + 1 where `id` = "7"
+
+ execution time: 1.12ms; update `article` set `browse` = `browse` + 1 where `id` = "14"
+
+ execution time: 0.94ms; select max(`id`) as aggregate from `article` where `id` < "7"
+
+ execution time: 0.81ms; select max(`id`) as aggregate from `article` where `id` < "14"
+
+ execution time: 0.8ms; select `id`, `title` from `article` where `id` = "6" limit 1
+
+ execution time: 0.72ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 0.31ms; select min(`id`) as aggregate from `article` where `id` > "14"
+
+ execution time: 1.43ms; select min(`id`) as aggregate from `article` where `id` > "7"
+
+ execution time: 0.51ms; select `id`, `title` from `article` where `id` = "8" limit 1
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 2.26ms; select `id`, `title` from `article` where `id` != "14" order by RAND() limit 1
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.6ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.6ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 7.71ms; select exists(select * from `article` where `title` like "%PHP%") as `exists`
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `title` like "%PHP%"
+
+ execution time: 1.19ms; select * from `article` where `title` like "%PHP%" limit 15 offset 0
+
+ execution time: 5.5ms; select exists(select * from `article` where `title` like "%框架%") as `exists`
+
+ execution time: 2.01ms; select exists(select * from `article` where `title` like "%读后感%") as `exists`
+
+ execution time: 12.39ms; select exists(select * from `article` where `title` like "%随心记录%") as `exists`
+
+ execution time: 2.34ms; select exists(select * from `article` where `id` = "8") as `exists`
+
+ execution time: 1.06ms; select * from `article` where `id` = "8" limit 1
+
+ execution time: 0.9ms; update `article` set `browse` = `browse` + 1 where `id` = "8"
+
+ execution time: 0.44ms; select max(`id`) as aggregate from `article` where `id` < "8"
+
+ execution time: 0.28ms; select `id`, `title` from `article` where `id` = "7" limit 1
+
+ execution time: 0.36ms; select min(`id`) as aggregate from `article` where `id` > "8"
+
+ execution time: 0.27ms; select `id`, `title` from `article` where `id` = "9" limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 1.64ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.11ms; select exists(select * from `article` where `title` like "%心得笔记%") as `exists`
+
+ execution time: 56.45ms; select * from `admins` where `name` = "dream" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.15ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.34ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.31ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20") and `type` = "2"
+
+ execution time: 0.23ms; select * from `privilege_group`
+
+ execution time: 1.86ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.53ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.22ms; select count(*) as aggregate from `roles`
+
+ execution time: 0.21ms; select count(*) as aggregate from `admins` where `admins`.`deleted_at` is null
+
+ execution time: 0.62ms; select count(*) as aggregate from `article`
+
+ execution time: 0.23ms; select count(*) as aggregate from `message` where `message`.`deleted_at` is null
+
+ execution time: 0.33ms; select count(*) as aggregate from `users`
+
+ execution time: 0.3ms; select count(*) as aggregate from `book` where `status` = "1"
+
+ execution time: 1.92ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.5ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 2.62ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.66ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.29ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.42ms; select `id`, `name` from `article_category`
+
+ execution time: 1.54ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 27.75ms; update `article` set `status` = "0" where (`id` = "13")
+
+ execution time: 1.67ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.69ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.28ms; select `id`, `name` from `article_category`
+
+ execution time: 1.48ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.68ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.49ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.67ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.51ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.66ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.28ms; select `id`, `name` from `article_category`
+
+ execution time: 1.65ms; select exists(select * from `article` where `id` = "13") as `exists`
+
+ execution time: 0.66ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 23.14ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 4.83ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.39ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.38ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.27ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.49ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 4.38ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 0.57ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.33ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.27ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.32ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `category_id` is null
+
+ execution time: 2.22ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 0.47ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.29ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.3ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.21ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.21ms; select count(*) as aggregate from `article` where `category_id` is null
+
+ execution time: 1.72ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.97ms; select * from `article` where `article`.`id` = "13" limit 1
+
+ execution time: 15.53ms; update `article` set `content` = "<p>Git — 无需多说，2019年还不知道Git的程序猿不是好程序猿</p><p><br/></p><p>Git诞生于2005年，大神Linus的作品，Github诞生于2008年，没有Git就没有GitHub，Github已成为全球最大的代(tong)码(xing)开(jiao)源(you)社(wang)区(zhan)，注册免费用户即可在Github上免费托管开源代码，如需建立私有仓库必须付费。那么Gitlab又是什么？</p><p><br/></p><p>GitLab和GitHub一样属于第三方基于Git开发的作品，免费且开源（https://github.com/gitlabhq/gitlabhq 基于MIT协议），与Github类似，可以注册用户，任意提交你的代码，添加SSHKey等等。不同的是，GitLab是可以部署到自己的服务器上，数据库等一切信息都掌握在自己手上，适合团队内部协作开发，你总不可能把团队内部的智慧总放在别人的服务器上吧？简单来说可把GitLab看作个人版的GitHub。</p><h3 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">搭建GitLab</h3><h5 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">环境配置</h5><ol style="box-sizing: border-box; margin-bottom: 20px; margin-left: 20px; padding-left: 0px; list-style-position: initial; list-style-image: initial; word-break: break-word; color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p>系统：Red-Hat系列CentOS 7.x-x86_64（笔者采用的是CentOS7.2）</p></li><li><p>CPU：建议双核以上</p></li><li><p>内存：2GB（官方建议4GB以上，请看下图官方给出的建议）</p></li></ol><h5 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);">安装</h5><p><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">GitLab 10.x之后添加多了一些依赖，并且要启动sshd服务，所以我们先添加依赖，启动sshd，为防火墙添加服务</span></p><pre class="brush:bash;toolbar:false">sudo&nbsp;yum&nbsp;install&nbsp;-y&nbsp;curl&nbsp;policycoreutils-python&nbsp;openssh-server&nbsp;openssh-clients
+sudo&nbsp;systemctl&nbsp;enable&nbsp;sshd
+sudo&nbsp;systemctl&nbsp;start&nbsp;sshd&nbsp;
+sudo&nbsp;firewall-cmd&nbsp;–permanent&nbsp;–add-service=http
+sudo&nbsp;systemctl&nbsp;reload&nbsp;firewalld</pre><p><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span></p><p>GitLab官方文档中有多种安装方式，分别为deb，rpm，node，python，gem。</p><p>详情请看：<a href="https://packages.gitlab.com/gitlab/gitlab-ce/install" target="_blank">https://packages.gitlab.com/gitlab/gitlab-ce/install</a></p><p>安装包：<a href="https://packages.gitlab.com/gitlab/gitlab-ce">https://packages.gitlab.com/gitlab/gitlab-ce</a></p><p>笔者采用的是rpm安装方式，命令行下输入</p><pre class="brush:bash;toolbar:false">wget&nbsp;https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm</pre><p style="text-align: center;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809363633326.jpg" title="1573809363633326.jpg" alt="1573809344(1).jpg" width="756" height="149"/></span></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">安装gitlab&nbsp;安装命令：</span></p><pre class="brush:bash;toolbar:false">rpm&nbsp;-i&nbsp;gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm</pre><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p style="text-align: center;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809248223376.jpg" title="1573809248223376.jpg" alt="1573807611.jpg" width="753" height="359"/></span></span></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">修改gitlab配置文件指定服务器ip和自定义端口：</span></span></p><pre class="brush:bash;toolbar:false">vim&nbsp;&nbsp;/etc/gitlab/gitlab.rb</pre><p style="text-align: center;"><br/></p><p style="text-align: center;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809715993839.jpg" title="1573809715993839.jpg" alt="1573809692(1).jpg" width="761" height="206"/></span></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">重置并启动GitLab</span><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span><br/></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span></span></p><pre class="brush:bash;toolbar:false">gitlab-ctl&nbsp;reconfigure
+gitlab-ctl&nbsp;restart</pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center;"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;"><img src="/upload/image/20191115/1573809643620417.jpg" title="1573809643620417.jpg" alt="1573809588(1).jpg" width="766" height="162"/></span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">访问</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">&nbsp;GitLab</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">页面</span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);">如果没有域名，直接输入服务器ip和指定端口进行访问</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);">初始账户: root 密码:5iveL!fe</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center;"><img src="/upload/image/20191115/1573809799252346.jpg" title="1573809799252346.jpg" alt="1573809780(1).jpg" width="849" height="456"/></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">查看GitLab版本命令</span></p><pre class="brush:bash;toolbar:false">cat&nbsp;/opt/gitlab/embedded/service/gitlab-rails/VERSION</pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span>卸载Gitlab</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);">停止gitlab</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p><br/></p><p><br/></p>", `update_at` = "1574058846" where `id` = "13"
+
+ execution time: 1.65ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.47ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.29ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.24ms; select `id`, `name` from `article_category`
+
+ execution time: 2.15ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.83ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.23ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.51ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.58ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.98ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.32ms; select `id`, `name` from `article_category`
+
+ execution time: 1.6ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.76ms; select * from `article` where `article`.`id` = "13" limit 1
+
+ execution time: 35.42ms; update `article` set `introduction` = "Git — 无需多说，2019年还不知道Git的程序猿不是好程序猿
+Git诞生于2005年，大神Linus的作品，Github诞生于2008年，没有Git就没有GitHub，Github已成为全球最大的代(tong)码(xing)开(jiao)源(you)社(wang)区(zhan)，注册免费用户即可在Github上免费托管开源代码，如需建立私有仓库必须付费。那么Gitlab又是什么？
+GitLab和GitHub一样属于第三方基于Git开发的作品，免费且开源（https://github.com/gitlabhq/gitlabhq 基于MIT协议），与Github类似，可以注册用户，任意提交你的代码，添加SSHKey等等。不同的是，GitLab是可以部署到自己的服务器上，数据库等一切信息都掌握在自己手上，适合团队内部协作开发，你总不可能把团队内部的智慧总放在别人的服务器上吧？简单来说可把GitLab看作个人版的GitHub。", `content` = "<p>Git — 无需多说，2019年还不知道Git的程序猿不是好程序猿</p><p><br/></p><p style="line-height: normal;">Git诞生于2005年，大神Linus的作品，Github诞生于2008年，没有Git就没有GitHub，Github已成为全球最大的代(tong)码(xing)开(jiao)源(you)社(wang)区(zhan)，注册免费用户即可在Github上免费托管开源代码，如需建立私有仓库必须付费。那么Gitlab又是什么？</p><p style="line-height: normal;"><br/></p><p style="line-height: normal;">GitLab和GitHub一样属于第三方基于Git开发的作品，免费且开源（https://github.com/gitlabhq/gitlabhq 基于MIT协议），与Github类似，可以注册用户，任意提交你的代码，添加SSHKey等等。不同的是，GitLab是可以部署到自己的服务器上，数据库等一切信息都掌握在自己手上，适合团队内部协作开发，你总不可能把团队内部的智慧总放在别人的服务器上吧？简单来说可把GitLab看作个人版的GitHub。</p><p><br/></p><h3 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">搭建GitLab</h3><h5 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">环境配置</h5><ol style="box-sizing: border-box; margin-bottom: 20px; margin-left: 20px; padding-left: 0px; list-style-position: initial; list-style-image: initial; word-break: break-word; color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p style="line-height: normal;">系统：Red-Hat系列CentOS 7.x-x86_64（笔者采用的是CentOS7.2）</p></li><li><p style="line-height: normal;">CPU：建议双核以上</p></li><li><p style="line-height: normal;">内存：2GB（官方建议4GB以上，请看下图官方给出的建议）</p></li></ol><h5 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">安装</h5><p style="line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">GitLab 10.x之后添加多了一些依赖，并且要启动sshd服务，所以我们先添加依赖，启动sshd，为防火墙添加服务</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">sudo&nbsp;yum&nbsp;install&nbsp;-y&nbsp;curl&nbsp;policycoreutils-python&nbsp;openssh-server&nbsp;openssh-clients<br/>sudo&nbsp;systemctl&nbsp;enable&nbsp;sshd<br/>sudo&nbsp;systemctl&nbsp;start&nbsp;sshd&nbsp;<br/>sudo&nbsp;firewall-cmd&nbsp;–permanent&nbsp;–add-service=http<br/>sudo&nbsp;systemctl&nbsp;reload&nbsp;firewalld<br/></p></pre><p style="line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span></p><p style="line-height: normal;">GitLab官方文档中有多种安装方式，分别为deb，rpm，node，python，gem。</p><p><br/></p><p style="line-height: normal;">详情请看：<a href="https://packages.gitlab.com/gitlab/gitlab-ce/install" target="_blank">https://packages.gitlab.com/gitlab/gitlab-ce/install</a></p><p style="line-height: normal;">安装包：<a href="https://packages.gitlab.com/gitlab/gitlab-ce">https://packages.gitlab.com/gitlab/gitlab-ce</a></p><p style="line-height: normal;">笔者采用的是rpm安装方式，命令行下输入</p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">wget&nbsp;https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm<br/></p></pre><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809363633326.jpg" title="1573809363633326.jpg" alt="1573809344(1).jpg" width="756" height="149"/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">安装gitlab&nbsp;安装命令：</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">rpm&nbsp;-i&nbsp;gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm<br/></p></pre><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809248223376.jpg" title="1573809248223376.jpg" alt="1573807611.jpg" width="753" height="359"/></span></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">修改gitlab配置文件指定服务器ip和自定义端口：</span></span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">vim&nbsp;&nbsp;/etc/gitlab/gitlab.rb<br/></p></pre><p style="text-align: center;"><br/></p><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809715993839.jpg" title="1573809715993839.jpg" alt="1573809692(1).jpg" width="761" height="206"/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">重置并启动GitLab</span><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span><br/></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span></span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">gitlab-ctl&nbsp;reconfigure<br/>gitlab-ctl&nbsp;restart<br/></p></pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; line-height: normal;"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;"><img src="/upload/image/20191115/1573809643620417.jpg" title="1573809643620417.jpg" alt="1573809588(1).jpg" width="766" height="162"/></span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">访问</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">&nbsp;GitLab</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">页面</span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">如果没有域名，直接输入服务器ip和指定端口进行访问</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">初始账户: root 密码:5iveL!fe</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; line-height: normal;"><img src="/upload/image/20191115/1573809799252346.jpg" title="1573809799252346.jpg" alt="1573809780(1).jpg" width="849" height="456"/></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">查看GitLab版本命令</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">cat&nbsp;/opt/gitlab/embedded/service/gitlab-rails/VERSION<br/></p></pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span></p><h2 style="white-space: normal; line-height: normal;">卸载gitlab</h2><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">1、停止gitlab</p><pre class="brush:bash;toolbar:false;"><p style="line-height: normal;">gitlab-ctl&nbsp;stop<br/></p></pre><p style="line-height: normal;">2、卸载gitlab</p><pre class="line-numbers  language-undefined"><p style="line-height: normal;">rpm&nbsp;-e&nbsp;gitlab-ce<br/></p></pre><p style="line-height: normal;">3、查看gitlab进程</p><pre class="line-numbers  language-undefined"><p style="line-height: normal;">ps&nbsp;aux&nbsp;|&nbsp;grep&nbsp;gitlab<br/></p></pre><p style="line-height: normal;">4、杀掉第一个进程</p><pre class="line-numbers  language-bash"><p style="line-height: normal;">kill&nbsp;-9&nbsp;18777&nbsp;&nbsp;#（18777&nbsp;是第一个进程的pid号，根据显示情况输入）<br/></p></pre><p><br/></p><p style="line-height: normal;">杀掉后，在ps aux | grep gitlab确认一遍，还有没有gitlab的进程<br/>如果还有进程请用以下命令杀死所有进程</p><p><br/></p><pre class="line-numbers  language-bash"><p style="line-height: normal;">ps&nbsp;-ef&nbsp;|&nbsp;grep&nbsp;gitlab&nbsp;|&nbsp;xargs&nbsp;kill&nbsp;-s&nbsp;9<br/></p></pre><p style="line-height: normal;">5、删除所有包含gitlab文件</p><pre class="line-numbers  language-swift"><p style="line-height: normal;">find&nbsp;/&nbsp;-name&nbsp;gitlab&nbsp;|&nbsp;xargs&nbsp;rm&nbsp;-rf<br/></p></pre><p><br/></p><p><br/></p><p><br/></p>", `update_at` = "1574059293" where `id` = "13"
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.41ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 15.44ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.27ms; select `id`, `name` from `article_category`
+
+ execution time: 1.77ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.43ms; update `article` set `status` = "1" where (`id` = "13")
+
+ execution time: 1.81ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.7ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 2.44ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.26ms; select `id`, `name` from `article_category`
+
+ execution time: 1.86ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.96ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.45ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.8ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.69ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.72ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.23ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.79ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.17ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 1.13ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 1.4ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.3ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.3ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.33ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.28ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.55ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 1.51ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.88ms; update `article` set `status` = "0" where (`id` = "13")
+
+ execution time: 1.19ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.27ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.22ms; select `id`, `name` from `article_category`
+
+ execution time: 1.68ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.62ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.22ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 1.47ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.62ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.26ms; select `id`, `name` from `article_category`
+
+ execution time: 1.65ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.1ms; select * from `article` where `article`.`id` = "13" limit 1
+
+ execution time: 15.65ms; update `article` set `introduction` = "Git — 无需多说，2019年还不知道Git的程序猿不是好程序猿
+Git诞生于2005年，大神Linus的作品，Github诞生于2008年，没有Git就没有GitHub，Github已成为全球最大的代(tong)码(xing)开(jiao)源(you)社(wang)区(zhan)，注册免费用户即可在Github上免费托管开源代码，如需建立私有仓库必须付费。那么Gitlab又是什么？", `update_at` = "1574059329" where `id` = "13"
+
+ execution time: 1.57ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.55ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.28ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.27ms; select `id`, `name` from `article_category`
+
+ execution time: 1.93ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.68ms; update `article` set `status` = "1" where (`id` = "13")
+
+ execution time: 1.74ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.9ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.26ms; select `id`, `name` from `article_category`
+
+ execution time: 2ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 0.8ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 0.74ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.32ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.42ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.27ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.38ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.58ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.15ms; update `article` set `love` = `love` + 1 where `id` = "13"
+
+ execution time: 2.4ms; update `article` set `love` = `love` + 1 where `id` = "13"
+
+ execution time: 1.85ms; update `article` set `love` = `love` + 1 where `id` = "13"
+
+ execution time: 1.86ms; update `article` set `love` = `love` + 1 where `id` = "13"
+
+ execution time: 113.15ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.01ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.58ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.03ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.84ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 97.34ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 0.95ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 27.05ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.5ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.45ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.27ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.38ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.56ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.09ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.69ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.61ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.56ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.5ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.79ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.4ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.29ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.36ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.32ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 6.05ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 1.2ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 1.37ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.53ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.39ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.4ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.36ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.4ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.76ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 5.86ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.05ms; update `article` set `status` = "1" where (`id` = "14")
+
+ execution time: 2.47ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.59ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.05ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.27ms; select `id`, `name` from `article_category`
+
+ execution time: 4.94ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 1.33ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 1.18ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.36ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.41ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.36ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.37ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 1.47ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.54ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.14ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.53ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.48ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.48ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.88ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.33ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.3ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.7ms; select exists(select * from `article` where `id` = "14" and `status` = "1") as `exists`
+
+ execution time: 1.01ms; select * from `article` where `id` = "14" limit 1
+
+ execution time: 0.52ms; update `article` set `browse` = `browse` + 1 where `id` = "14"
+
+ execution time: 0.46ms; select max(`id`) as aggregate from `article` where `id` < "14"
+
+ execution time: 0.33ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 0.39ms; select min(`id`) as aggregate from `article` where `id` > "14"
+
+ execution time: 1.08ms; select `id`, `title` from `article` where `id` != "14" order by RAND() limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 1.81ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 83.1ms; select exists(select * from `article` where `id` = "14" and `status` = "1") as `exists`
+
+ execution time: 0.51ms; select * from `article` where `id` = "14" limit 1
+
+ execution time: 1.28ms; update `article` set `browse` = `browse` + 1 where `id` = "14"
+
+ execution time: 0.42ms; select max(`id`) as aggregate from `article` where `id` < "14"
+
+ execution time: 0.43ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 0.3ms; select min(`id`) as aggregate from `article` where `id` > "14"
+
+ execution time: 13.59ms; select `id`, `title` from `article` where `id` != "14" order by RAND() limit 1
+
+ execution time: 0.39ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.58ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 2.92ms; select exists(select * from `article` where `id` = "13" and `status` = "1") as `exists`
+
+ execution time: 0.78ms; select * from `article` where `id` = "13" limit 1
+
+ execution time: 0.49ms; update `article` set `browse` = `browse` + 1 where `id` = "13"
+
+ execution time: 0.47ms; select max(`id`) as aggregate from `article` where `id` < "13"
+
+ execution time: 0.33ms; select `id`, `title` from `article` where `id` = "12" limit 1
+
+ execution time: 0.38ms; select min(`id`) as aggregate from `article` where `id` > "13"
+
+ execution time: 0.31ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.4ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.55ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 4.92ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.99ms; update `article` set `status` = "0" where (`id` = "13")
+
+ execution time: 3.15ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 3.08ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.56ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.38ms; select `id`, `name` from `article_category`
+
+ execution time: 3.14ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 3.36ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.72ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 3.2ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.87ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.33ms; select `id`, `name` from `article_category`
+
+ execution time: 7.08ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.74ms; select * from `article` where `article`.`id` = "13" limit 1
+
+ execution time: 45.9ms; update `article` set `content` = "<p>Git — 无需多说，2019年还不知道Git的程序猿不是好程序猿</p><p><br/></p><p style="line-height: normal;">Git诞生于2005年，大神Linus的作品，Github诞生于2008年，没有Git就没有GitHub，Github已成为全球最大的代(tong)码(xing)开(jiao)源(you)社(wang)区(zhan)，注册免费用户即可在Github上免费托管开源代码，如需建立私有仓库必须付费。那么Gitlab又是什么？</p><p style="line-height: normal;"><br/></p><p style="line-height: normal;">GitLab和GitHub一样属于第三方基于Git开发的作品，免费且开源（https://github.com/gitlabhq/gitlabhq 基于MIT协议），与Github类似，可以注册用户，任意提交你的代码，添加SSHKey等等。不同的是，GitLab是可以部署到自己的服务器上，数据库等一切信息都掌握在自己手上，适合团队内部协作开发，你总不可能把团队内部的智慧总放在别人的服务器上吧？简单来说可把GitLab看作个人版的GitHub。</p><p><br/></p><h3 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 22px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">搭建GitLab</h3><h1 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">环境配置</h1><ol style="box-sizing: border-box; margin-bottom: 20px; margin-left: 20px; padding-left: 0px; list-style-position: initial; list-style-image: initial; word-break: break-word; color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255);" class=" list-paddingleft-2"><li><p style="line-height: normal;">系统：Red-Hat系列CentOS 7.x-x86_64（笔者采用的是CentOS7.2）</p></li><li><p style="line-height: normal;">CPU：建议双核以上</p></li><li><p style="line-height: normal;">内存：2GB（官方建议4GB以上，请看下图官方给出的建议）</p></li></ol><h1 style="box-sizing: border-box; margin: 0px 0px 16px; color: rgb(64, 64, 64); text-rendering: optimizelegibility; font-size: 18px; font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">安装</h1><p style="line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">GitLab 10.x之后添加多了一些依赖，并且要启动sshd服务，所以我们先添加依赖，启动sshd，为防火墙添加服务</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">sudo&nbsp;yum&nbsp;install&nbsp;-y&nbsp;curl&nbsp;policycoreutils-python&nbsp;openssh-server&nbsp;openssh-clients<br/>sudo&nbsp;systemctl&nbsp;enable&nbsp;sshd<br/>sudo&nbsp;systemctl&nbsp;start&nbsp;sshd&nbsp;<br/>sudo&nbsp;firewall-cmd&nbsp;–permanent&nbsp;–add-service=http<br/>sudo&nbsp;systemctl&nbsp;reload&nbsp;firewalld<br/></p></pre><p style="line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span></p><p style="line-height: normal;">GitLab官方文档中有多种安装方式，分别为deb，rpm，node，python，gem。</p><p><br/></p><p style="line-height: normal;">详情请看：<a href="https://packages.gitlab.com/gitlab/gitlab-ce/install" target="_blank">https://packages.gitlab.com/gitlab/gitlab-ce/install</a></p><p style="line-height: normal;">安装包：<a href="https://packages.gitlab.com/gitlab/gitlab-ce">https://packages.gitlab.com/gitlab/gitlab-ce</a></p><p style="line-height: normal;">笔者采用的是rpm安装方式，命令行下输入</p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">wget&nbsp;https://mirrors.tuna.tsinghua.edu.cn/gitlab-ce/yum/el7/gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm<br/></p></pre><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809363633326.jpg" title="1573809363633326.jpg" alt="1573809344(1).jpg" width="756" height="149"/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">安装gitlab&nbsp;安装命令：</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">rpm&nbsp;-i&nbsp;gitlab-ce-10.0.0-ce.0.el7.x86_64.rpm<br/></p></pre><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809248223376.jpg" title="1573809248223376.jpg" alt="1573807611.jpg" width="753" height="359"/></span></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><br/></span></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">修改gitlab配置文件指定服务器ip和自定义端口：</span></span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">vim&nbsp;&nbsp;/etc/gitlab/gitlab.rb<br/></p></pre><p style="text-align: center;"><br/></p><p style="text-align: center; line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><img src="/upload/image/20191115/1573809715993839.jpg" title="1573809715993839.jpg" alt="1573809692(1).jpg" width="761" height="206"/></span></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">重置并启动GitLab</span><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span><br/></p><p style="line-height: normal;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);"></span></span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">gitlab-ctl&nbsp;reconfigure<br/>gitlab-ctl&nbsp;restart<br/></p></pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; line-height: normal;"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;"><img src="/upload/image/20191115/1573809643620417.jpg" title="1573809643620417.jpg" alt="1573809588(1).jpg" width="766" height="162"/></span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">访问</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">&nbsp;GitLab</span><span style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 0px; font-weight: 700; overflow-wrap: break-word;">页面</span></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">如果没有域名，直接输入服务器ip和指定端口进行访问</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">初始账户: root 密码:5iveL!fe</p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; line-height: normal;"><img src="/upload/image/20191115/1573809799252346.jpg" title="1573809799252346.jpg" alt="1573809780(1).jpg" width="849" height="456"/></p><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);">查看GitLab版本命令</span></p><pre class="brush:bash;toolbar:false"><p style="line-height: normal;">cat&nbsp;/opt/gitlab/embedded/service/gitlab-rails/VERSION<br/></p></pre><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;"><span style="color: rgb(64, 64, 64); font-family: -apple-system, BlinkMacSystemFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Segoe UI&quot;, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; background-color: rgb(255, 255, 255);"></span></p><h2 style="white-space: normal; line-height: normal;">卸载gitlab</h2><p style="box-sizing: border-box; outline: 0px; margin-top: 0px; margin-bottom: 16px; padding: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(77, 77, 77); overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255); line-height: normal;">1、停止gitlab</p><pre class="brush:bash;toolbar:false;"><p style="line-height: normal;">gitlab-ctl&nbsp;stop<br/></p></pre><p style="line-height: normal;">2、卸载gitlab</p><pre class="line-numbers  language-undefined"><p style="line-height: normal;">rpm&nbsp;-e&nbsp;gitlab-ce<br/></p></pre><p style="line-height: normal;">3、查看gitlab进程</p><pre class="line-numbers  language-undefined"><p style="line-height: normal;">ps&nbsp;aux&nbsp;|&nbsp;grep&nbsp;gitlab<br/></p></pre><p style="line-height: normal;">4、杀掉第一个进程</p><pre class="line-numbers  language-bash"><p style="line-height: normal;">kill&nbsp;-9&nbsp;18777&nbsp;&nbsp;#（18777&nbsp;是第一个进程的pid号，根据显示情况输入）<br/></p></pre><p><br/></p><p style="line-height: normal;">杀掉后，在ps aux | grep gitlab确认一遍，还有没有gitlab的进程<br/>如果还有进程请用以下命令杀死所有进程</p><p><br/></p><pre class="line-numbers  language-bash"><p style="line-height: normal;">ps&nbsp;-ef&nbsp;|&nbsp;grep&nbsp;gitlab&nbsp;|&nbsp;xargs&nbsp;kill&nbsp;-s&nbsp;9<br/></p></pre><p style="line-height: normal;">5、删除所有包含gitlab文件</p><pre class="line-numbers  language-swift"><p style="line-height: normal;">find&nbsp;/&nbsp;-name&nbsp;gitlab&nbsp;|&nbsp;xargs&nbsp;rm&nbsp;-rf<br/></p></pre><h2>重新安装问题：</h2><p><br/></p><p><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">卸载了GitLab，重装了GitLab之后，运行&nbsp;</span><code style="box-sizing: border-box; outline: 0px; margin: 0px; padding: 2px 4px; font-family: &quot;Source Code Pro&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Anonymous Pro&quot;, &quot;Droid Sans Mono&quot;, Menlo, Monaco, Consolas, Inconsolata, Courier, monospace, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif; font-size: 14px; line-height: 22px; color: rgb(199, 37, 78); background-color: rgb(249, 242, 244); border-radius: 2px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal;">sudo gitlab-ctl reconfigure</code><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">命令的时候，卡死在</span></p><p style="text-align: center;"><span style="color: rgb(77, 77, 77); font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-variant-ligatures: common-ligatures; background-color: rgb(255, 255, 255);">&nbsp;&nbsp;&nbsp;&nbsp;<img src="/upload/image/20191118/1574062749587969.jpg" title="1574062749587969.jpg" alt="1574062733(1).jpg"/></span></p><p>解决方法：<br/></p><p style="box-sizing: border-box; outline: 0px; margin: 8px 0px 16px; padding: 0px; font-size: 24px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 32px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;">按住CTRL+C强制结束</span></p><p style="box-sizing: border-box; outline: 0px; margin: 8px 0px 16px; padding: 0px; font-size: 24px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 32px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;">运行：sudo systemctl restart gitlab-runsvdir</span></p><p style="box-sizing: border-box; outline: 0px; margin: 8px 0px 16px; padding: 0px; font-size: 24px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; color: rgb(79, 79, 79); line-height: 32px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 16px;">再次执行：sudo gitlab-ctl reconfigure</span></p><p>就ok了！</p>", `update_at` = "1574062862" where `id` = "13"
+
+ execution time: 22.58ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 11.72ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 65ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.43ms; select `id`, `name` from `article_category`
+
+ execution time: 58.07ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 39.26ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 41.06ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 10.72ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 46.77ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 6.31ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 20.87ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 6.18ms; select `id`, `name` from `article_category`
+
+ execution time: 34.25ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 7.43ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 72.87ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 7.19ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 6.93ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 7.13ms; select `id`, `name` from `article_category`
+
+ execution time: 58.07ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 3.46ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 4.21ms; select * from `article` where `article`.`id` = "13" limit 1
+
+ execution time: 1.92ms; update `article` set `image` = "/upload/image/2019-11-18/8ff11ef2c77bcf7e0a280a3ac1afdcd0.jpg", `update_at` = "1574063052" where `id` = "13"
+
+ execution time: 2.81ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.45ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.25ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.34ms; select `id`, `name` from `article_category`
+
+ execution time: 3.92ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.45ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.38ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `article_category`
+
+ execution time: 3.03ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.72ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 1.66ms; select * from `article` where `title` like "%%" order by `status` asc, `update_at` desc limit 10 offset 0
+
+ execution time: 0.29ms; select `id`, `name` from `article_category`
+
+ execution time: 2.82ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.46ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.65ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.55ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.83ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.02ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.57ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.47ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.42ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.08ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.35ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 5.75ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 1.76ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 12.61ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 1.69ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.8ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.84ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.57ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.3ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.29ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.38ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-14"
+
+ execution time: 0.42ms; select * from `consume_detail` where `date` = "2019-11-14" limit 10 offset 0
+
+ execution time: 0.46ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.52ms; select `id`, `name` from `consume_category`
+
+ execution time: 2ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.39ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.33ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.14ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.49ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 61.83ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.49ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.66ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.35ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.15ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 1.63ms; update `consume` set `amount` = "34040" where `id` = "232"
+
+ execution time: 6.27ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063170", "2", "易通行", "2019-11-15", "400", "", "232", "良乡南关——常营", "招商信用卡")
+
+ execution time: 2.42ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.68ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.68ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 1.06ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 2ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.58ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.51ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.45ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.91ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.4ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.35ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.32ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.23ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.72ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 0.51ms; update `consume` set `amount` = "77626" where `id` = "228"
+
+ execution time: 23.93ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063197", "2", "未来时超市", "2019-11-15", "700", "", "228", "手抓饼", "招商信用卡")
+
+ execution time: 3.04ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.78ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.65ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.66ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.31ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.47ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.99ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.61ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.27ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.74ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.29ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.46ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.27ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.8ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "238" limit 1
+
+ execution time: 0.83ms; update `consume` set `amount` = "30800" where `id` = "238"
+
+ execution time: 0.75ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063241", "2", "天弘沪深300指数C", "2019-11-15", "10000", "", "238", "定投", "余额宝")
+
+ execution time: 2.69ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.68ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.75ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.86ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.36ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.9ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 2.09ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.88ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.38ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.96ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.41ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.49ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.27ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.82ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 0.55ms; update `consume` set `amount` = "78876" where `id` = "228"
+
+ execution time: 0.82ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063272", "2", "美团点评", "2019-11-15", "1250", "", "228", "午餐", "招商信用卡")
+
+ execution time: 2.03ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.06ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.71ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.63ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.32ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.46ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.51ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.6ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.4ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.32ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.5ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.7ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.35ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.84ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 0.53ms; update `consume` set `amount` = "34440" where `id` = "232"
+
+ execution time: 1.16ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063300", "2", "易通行", "2019-11-15", "400", "", "232", "常营——良乡南关", "招商信用卡")
+
+ execution time: 2.11ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.66ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.79ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.59ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.3ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.4ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.56ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.52ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.57ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.4ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 15.74ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.46ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.69ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 0.89ms; update `consume` set `amount` = "80576" where `id` = "228"
+
+ execution time: 1.08ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063343", "2", "客满多超市", "2019-11-17", "1700", "", "228", "鸡蛋、", "招商信用卡")
+
+ execution time: 2.07ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.66ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.69ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.52ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.58ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.63ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.57ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.35ms; select `name`, `id` from `consume_category`
+
+ execution time: 2.25ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 0.46ms; update `consume` set `amount` = "34840" where `id` = "232"
+
+ execution time: 1.51ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063376", "2", "易通行", "2019-11-18", "400", "", "232", "良乡南关——常营", "招商信用卡")
+
+ execution time: 1.98ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.6ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.68ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.61ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.32ms; select `id`, `name` from `consume_category`
+
+ execution time: 3.16ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.05ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.6ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.68ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.39ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.31ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.34ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.78ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.66ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 0.88ms; update `consume` set `amount` = "81276" where `id` = "228"
+
+ execution time: 0.63ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063404", "2", "未来时超市", "2019-11-18", "700", "", "228", "手抓饼", "招商信用卡")
+
+ execution time: 2.45ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.71ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.77ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 5.68ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.06ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.62ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 1.83ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.76ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 0.57ms; update `consume` set `amount` = "82747" where `id` = "228"
+
+ execution time: 1.42ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063433", "2", "美团点评", "2019-11-18", "1471", "", "228", "", "招商信用卡")
+
+ execution time: 2.43ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.6ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.78ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.88ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.42ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.25ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.88ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-16"
+
+ execution time: 0.87ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.31ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.84ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.84ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-17"
+
+ execution time: 0.81ms; select * from `consume_detail` where `date` = "2019-11-17" limit 10 offset 0
+
+ execution time: 0.43ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.3ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.86ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.59ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-18"
+
+ execution time: 0.66ms; select * from `consume_detail` where `date` = "2019-11-18" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.34ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.33ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.87ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.56ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 3.02ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 0.5ms; update `consume` set `amount` = "35240" where `id` = "232"
+
+ execution time: 0.56ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063465", "2", "易通行", "2019-11-18", "400", "", "232", "常营——良乡南关", "招商信用卡")
+
+ execution time: 2.09ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.68ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-18"
+
+ execution time: 0.83ms; select * from `consume_detail` where `date` = "2019-11-18" limit 10 offset 0
+
+ execution time: 0.54ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.64ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.56ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.93ms; select exists(select * from `consume` where `month` = "2019-11") as `exists`
+
+ execution time: 0.44ms; select exists(select * from `consume_detail` where `date` like "%2019-11%") as `exists`
+
+ execution time: 0.52ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-11"
+
+ execution time: 28.3ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.49ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.57ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-11%" group by `date`
+
+ execution time: 1.79ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.75ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.48ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.73ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.38ms; select count(*) as aggregate from `consume` where `month` = "2019-11"
+
+ execution time: 0.34ms; select * from `consume` where `month` = "2019-11" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.88ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.56ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 1.07ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1574063510", "2", "无消费", "2019-11-16", "0", "", "228", "11.16", "0")
+
+ execution time: 2.06ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.62ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-18"
+
+ execution time: 0.66ms; select * from `consume_detail` where `date` = "2019-11-18" limit 10 offset 0
+
+ execution time: 0.52ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.34ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.7ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.38ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.45ms; select exists(select * from `consume` where `month` = "2019-11") as `exists`
+
+ execution time: 0.48ms; select exists(select * from `consume_detail` where `date` like "%2019-11%") as `exists`
+
+ execution time: 0.35ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-11"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.3ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.83ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-11%" group by `date`
+
+ execution time: 2.5ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.58ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-11-15"
+
+ execution time: 0.72ms; select * from `consume_detail` where `date` = "2019-11-15" limit 10 offset 0
+
+ execution time: 0.4ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.82ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 3.75ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.35ms; select exists(select * from `consume` where `month` = "2019-11") as `exists`
+
+ execution time: 0.27ms; select exists(select * from `consume_detail` where `date` like "%2019-11%") as `exists`
+
+ execution time: 0.3ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-11"
+
+ execution time: 0.35ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-11%" group by `date`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.5ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.45ms; select count(*) as aggregate from `roles`
+
+ execution time: 0.33ms; select count(*) as aggregate from `admins` where `admins`.`deleted_at` is null
+
+ execution time: 0.34ms; select count(*) as aggregate from `article`
+
+ execution time: 0.64ms; select count(*) as aggregate from `message` where `message`.`deleted_at` is null
+
+ execution time: 0.95ms; select count(*) as aggregate from `users`
+
+ execution time: 0.91ms; select count(*) as aggregate from `book` where `status` = "1"
+
+ execution time: 1.54ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.36ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.72ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.31ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.35ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.22ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 1.22ms; select `id`, `name`, `level`, `parent_tree`, `parent_id` from `book_category`
+
+ execution time: 1.8ms; select * from `admins` where `id` = "2" and `admins`.`deleted_at` is null limit 1
+
+ execution time: 0.54ms; select count(*) as aggregate from `book` where `name` like "%%"
+
+ execution time: 0.7ms; select * from `book` where `name` like "%%" order by `status` asc, `share_status` desc limit 10 offset 0
+
+ execution time: 0.39ms; select `id`, `name` from `book_category`
+
+ execution time: 1.75ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.4ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.36ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.09ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.52ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.46ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.78ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.33ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.52ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.33ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.43ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.93ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.42ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.58ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 1.84ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.47ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.39ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.38ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.36ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.08ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.57ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.45ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.42ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.45ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 75.9ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.47ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.35ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.32ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.31ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 101.11ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.26ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.23ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.43ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.95ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 7.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.58ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.31ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 202.96ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.61ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.29ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.69ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.08ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 99.88ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.95ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.36ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.43ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.55ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 174.67ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.14ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 1.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.04ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 15.34ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 72.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.47ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.81ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.99ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.43ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.36ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 112.18ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 7.99ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 87.66ms; update `consume` set `update_at` = "1574090582" where `id` = "1"
+
+ execution time: 0.75ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 1.51ms; update `consume` set `update_at` = "1574090582" where `id` = "2"
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 1.56ms; update `consume` set `update_at` = "1574090582" where `id` = "8"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 1.43ms; update `consume` set `update_at` = "1574090582" where `id` = "19"
+
+ execution time: 0.63ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 1.69ms; update `consume` set `update_at` = "1574090582" where `id` = "27"
+
+ execution time: 0.98ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 2.76ms; update `consume` set `update_at` = "1574090582" where `id` = "31"
+
+ execution time: 0.68ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 18.22ms; update `consume` set `update_at` = "1574090582" where `id` = "33"
+
+ execution time: 1.26ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 1.33ms; update `consume` set `update_at` = "1574090582" where `id` = "126"
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 1.28ms; update `consume` set `update_at` = "1574090582" where `id` = "128"
+
+ execution time: 0.83ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 1.67ms; update `consume` set `update_at` = "1574090582" where `id` = "164"
+
+ execution time: 0.43ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1574090582" where `id` = "190"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 1.45ms; update `consume` set `update_at` = "1574090582" where `id` = "202"
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.97ms; update `consume` set `update_at` = "1574090582" where `id` = "209"
+
+ execution time: 1.39ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 0.92ms; update `consume` set `update_at` = "1574090582" where `id` = "210"
+
+ execution time: 0.58ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 0.58ms; update `consume` set `update_at` = "1574090582" where `id` = "211"
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 4.93ms; update `consume` set `update_at` = "1574090582" where `id` = "213"
+
+ execution time: 0.86ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 2.59ms; update `consume` set `update_at` = "1574090582" where `id` = "214"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 0.67ms; update `consume` set `update_at` = "1574090582" where `id` = "215"
+
+ execution time: 0.43ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 1.07ms; update `consume` set `update_at` = "1574090582" where `id` = "219"
+
+ execution time: 0.53ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 0.72ms; update `consume` set `update_at` = "1574090582" where `id` = "221"
+
+ execution time: 0.9ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 1.5ms; update `consume` set `update_at` = "1574090582" where `id` = "223"
+
+ execution time: 1ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 1.55ms; update `consume` set `real_amount` = "82133", `update_at` = "1574090582" where `id` = "228"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "229" limit 1
+
+ execution time: 0.54ms; update `consume` set `update_at` = "1574090582" where `id` = "229"
+
+ execution time: 0.66ms; select * from `consume` where `consume`.`id` = "230" limit 1
+
+ execution time: 1.14ms; update `consume` set `update_at` = "1574090582" where `id` = "230"
+
+ execution time: 0.75ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 1.07ms; update `consume` set `real_amount` = "22040", `update_at` = "1574090582" where `id` = "232"
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "234" limit 1
+
+ execution time: 0.58ms; update `consume` set `update_at` = "1574090582" where `id` = "234"
+
+ execution time: 0.65ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1574090582" where `id` = "236"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "238" limit 1
+
+ execution time: 0.74ms; update `consume` set `real_amount` = "30800", `update_at` = "1574090582" where `id` = "238"
+
+ execution time: 0.6ms; select * from `consume` where `consume`.`id` = "242" limit 1
+
+ execution time: 0.95ms; update `consume` set `update_at` = "1574090582" where `id` = "242"
+
+ execution time: 0.68ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 0.66ms; update `consume` set `update_at` = "1574090582" where `id` = "255"
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 0.65ms; update `consume` set `update_at` = "1574090582" where `id` = "381"
+
+ execution time: 1ms; select * from `consume` where `consume`.`id` = "391" limit 1
+
+ execution time: 0.64ms; update `consume` set `update_at` = "1574090582" where `id` = "391"
+
+ execution time: 0.67ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 1.25ms; update `consume` set `update_at` = "1574090582" where `id` = "535"
+
+ execution time: 0.67ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 0.83ms; update `consume` set `update_at` = "1574090582" where `id` = "545"
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 0.6ms; update `consume` set `update_at` = "1574090582" where `id` = "546"
+
+ execution time: 0.71ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 0.5ms; update `consume` set `update_at` = "1574090582" where `id` = "547"
+
+ execution time: 0.73ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 0.58ms; update `consume` set `update_at` = "1574090582" where `id` = "548"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1574090582" where `id` = "549"
+
+ execution time: 50.86ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 1.03ms; update `consume` set `update_at` = "1574090582" where `id` = "550"
+
+ execution time: 1ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 0.67ms; update `consume` set `update_at` = "1574090582" where `id` = "551"
+
+ execution time: 0.95ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 0.71ms; update `consume` set `update_at` = "1574090582" where `id` = "552"
+
+ execution time: 0.66ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 0.47ms; update `consume` set `update_at` = "1574090582" where `id` = "553"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 1.14ms; update `consume` set `update_at` = "1574090582" where `id` = "554"
+
+ execution time: 0.6ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1574090582" where `id` = "555"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1574090582" where `id` = "556"
+
+ execution time: 0.82ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 0.48ms; update `consume` set `update_at` = "1574090582" where `id` = "557"
+
+ execution time: 0.76ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1574090582" where `id` = "560"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 0.37ms; update `consume` set `update_at` = "1574090582" where `id` = "561"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1574090582" where `id` = "563"
+
+ execution time: 0.59ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 0.7ms; update `consume` set `update_at` = "1574090582" where `id` = "566"
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "567" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1574090582" where `id` = "567"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "568" limit 1
+
+ execution time: 0.72ms; update `consume` set `update_at` = "1574090582" where `id` = "568"
+
+ execution time: 11.98ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 81.95ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.54ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.22ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.7ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.7ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.87ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.44ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.35ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.84ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 100.8ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.23ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.95ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.98ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.26ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.81ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.4ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.64ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 6.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.21ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.48ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.68ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 43.95ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.24ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.19ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.59ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 6.16ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.45ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.64ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.47ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.47ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36.7ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.07ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.59ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.97ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.42ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.65ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.59ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.35ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.23ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.96ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 4.15ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.21ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.76ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.4ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.11ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.85ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 7.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.04ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.66ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.71ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 7.66ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.13ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.39ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.14ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.73ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 4.01ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.45ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.83ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.63ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.08ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.46ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 1.19ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.26ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.69ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.31ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.75ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.36ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.76ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.18ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.93ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.07ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.12ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.26ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.7ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.78ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.02ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.96ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.58ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 30.7ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.5ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.98ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.5ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.6ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 18.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.49ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.97ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.26ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 135.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.49ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.17ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.85ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 59.77ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.06ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.3ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.34ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.78ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.84ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.03ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.41ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.05ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.41ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 3.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.84ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.98ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.08ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.37ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.23ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.45ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.51ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.3ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.37ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 5.7ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.2ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.42ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 10.74ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 10.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 4.85ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 12.15ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.62ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.55ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.34ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.35ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 63ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.33ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.5ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.96ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.39ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 2.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.18ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.13ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.98ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.45ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 68.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.07ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.14ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.83ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.32ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 21.92ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.98ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 1.36ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.71ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.81ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+

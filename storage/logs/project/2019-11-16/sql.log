@@ -1,0 +1,1240 @@
+ execution time: 42.5ms; select exists(select * from `article` where `id` = "6") as `exists`
+
+ execution time: 7.77ms; select * from `article` where `id` = "6" limit 1
+
+ execution time: 4.84ms; update `article` set `browse` = `browse` + 1 where `id` = "6"
+
+ execution time: 25.9ms; select max(`id`) as aggregate from `article` where `id` < "6"
+
+ execution time: 3.17ms; select `id`, `title` from `article` where `id` = "5" limit 1
+
+ execution time: 7.76ms; select min(`id`) as aggregate from `article` where `id` > "6"
+
+ execution time: 6.83ms; select `id`, `title` from `article` where `id` = "7" limit 1
+
+ execution time: 6.77ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 13ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 42.83ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.14ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 12.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 10.39ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 10.42ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 10.66ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 42.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.81ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.1ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 49.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 4.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 9.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 4.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 5.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 4.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.03ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 40.72ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.74ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.95ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 38.98ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.73ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 44.8ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.66ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.87ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.61ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 5.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 9.95ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.4ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.95ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 37.76ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.87ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.84ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 41.65ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.84ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 33.73ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.94ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.66ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.78ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 7.43ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 35.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.19ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.87ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 47.99ms; select exists(select * from `article` where `id` = "1") as `exists`
+
+ execution time: 7.66ms; select * from `article` where `id` = "1" limit 1
+
+ execution time: 18.81ms; update `article` set `browse` = `browse` + 1 where `id` = "1"
+
+ execution time: 28.85ms; select max(`id`) as aggregate from `article` where `id` < "1"
+
+ execution time: 16.17ms; select `id`, `title` from `article` where `id` != "1" order by RAND() limit 1
+
+ execution time: 6.59ms; select min(`id`) as aggregate from `article` where `id` > "1"
+
+ execution time: 7.78ms; select `id`, `title` from `article` where `id` = "2" limit 1
+
+ execution time: 7.71ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 6.89ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 33ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 10.69ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.59ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.59ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.61ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 4.49ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.94ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.39ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 48.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.17ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.43ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 41.86ms; select exists(select * from `article` where `id` = "18") as `exists`
+
+ execution time: 7.62ms; select max(`id`) as aggregate from `article` where `id` < "18"
+
+ execution time: 6.76ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 7.48ms; select min(`id`) as aggregate from `article` where `id` > "18"
+
+ execution time: 7.76ms; select `id`, `title` from `article` where `id` != "18" order by RAND() limit 1
+
+ execution time: 7.65ms; select count(*) as aggregate from `article` where `category_id` is null
+
+ execution time: 52.89ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.15ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.77ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 59.39ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.72ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.02ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.44ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.93ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 38.79ms; select exists(select * from `article` where `id` = "12") as `exists`
+
+ execution time: 11.67ms; select * from `article` where `id` = "12" limit 1
+
+ execution time: 15.51ms; update `article` set `browse` = `browse` + 1 where `id` = "12"
+
+ execution time: 12.02ms; select max(`id`) as aggregate from `article` where `id` < "12"
+
+ execution time: 3.32ms; select `id`, `title` from `article` where `id` = "11" limit 1
+
+ execution time: 6.78ms; select min(`id`) as aggregate from `article` where `id` > "12"
+
+ execution time: 6.8ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 7.65ms; select count(*) as aggregate from `article` where `category_id` = "4"
+
+ execution time: 10.85ms; select * from `article` where `category_id` = "4" limit 6 offset 0
+
+ execution time: 38.9ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 12.74ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.15ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.96ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.44ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 43.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.34ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.65ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 4.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.91ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 35.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.14ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.43ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36.13ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 42.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.72ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.2ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 11.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.83ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 4.37ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.77ms; select exists(select * from `article` where `title` like "%PHP%") as `exists`
+
+ execution time: 7.6ms; select count(*) as aggregate from `article` where `title` like "%PHP%"
+
+ execution time: 14.91ms; select * from `article` where `title` like "%PHP%" limit 15 offset 0
+
+ execution time: 35.09ms; select exists(select * from `article` where `id` = "51") as `exists`
+
+ execution time: 8.65ms; select max(`id`) as aggregate from `article` where `id` < "51"
+
+ execution time: 6.8ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 7.62ms; select min(`id`) as aggregate from `article` where `id` > "51"
+
+ execution time: 26.81ms; select `id`, `title` from `article` where `id` != "51" order by RAND() limit 1
+
+ execution time: 7.57ms; select count(*) as aggregate from `article` where `category_id` is null
+
+ execution time: 31.82ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.74ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 27.97ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.89ms; select exists(select * from `article` where `id` = "5") as `exists`
+
+ execution time: 10.72ms; select * from `article` where `id` = "5" limit 1
+
+ execution time: 3.81ms; update `article` set `browse` = `browse` + 1 where `id` = "5"
+
+ execution time: 24.88ms; select max(`id`) as aggregate from `article` where `id` < "5"
+
+ execution time: 4.2ms; select `id`, `title` from `article` where `id` = "4" limit 1
+
+ execution time: 7.75ms; select min(`id`) as aggregate from `article` where `id` > "5"
+
+ execution time: 6.81ms; select `id`, `title` from `article` where `id` = "6" limit 1
+
+ execution time: 6.69ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 9.9ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 51.89ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 10.48ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 9.86ms; update `consume` set `update_at` = "1573917782" where `id` = "1"
+
+ execution time: 4.53ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 28.11ms; update `consume` set `update_at` = "1573917782" where `id` = "2"
+
+ execution time: 22ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 3.98ms; update `consume` set `update_at` = "1573917782" where `id` = "8"
+
+ execution time: 7.73ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 26.22ms; update `consume` set `update_at` = "1573917782" where `id` = "19"
+
+ execution time: 0.64ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 4.12ms; update `consume` set `update_at` = "1573917782" where `id` = "27"
+
+ execution time: 6.76ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 23.48ms; update `consume` set `update_at` = "1573917782" where `id` = "31"
+
+ execution time: 1.67ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 4.07ms; update `consume` set `update_at` = "1573917782" where `id` = "33"
+
+ execution time: 24.83ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 4.38ms; update `consume` set `update_at` = "1573917782" where `id` = "126"
+
+ execution time: 6.75ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 25.46ms; update `consume` set `update_at` = "1573917782" where `id` = "128"
+
+ execution time: 0.83ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 4.66ms; update `consume` set `update_at` = "1573917783" where `id` = "164"
+
+ execution time: 6.8ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 39.96ms; update `consume` set `update_at` = "1573917783" where `id` = "190"
+
+ execution time: 22.99ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 4.89ms; update `consume` set `update_at` = "1573917783" where `id` = "202"
+
+ execution time: 7.69ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 24.92ms; update `consume` set `update_at` = "1573917783" where `id` = "209"
+
+ execution time: 1.7ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 3.34ms; update `consume` set `update_at` = "1573917783" where `id` = "210"
+
+ execution time: 6.73ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 25.34ms; update `consume` set `update_at` = "1573917783" where `id` = "211"
+
+ execution time: 1.81ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 3.6ms; update `consume` set `update_at` = "1573917783" where `id` = "213"
+
+ execution time: 8.79ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 25.36ms; update `consume` set `update_at` = "1573917783" where `id` = "214"
+
+ execution time: 1.73ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 3.81ms; update `consume` set `update_at` = "1573917783" where `id` = "215"
+
+ execution time: 7.77ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 43.89ms; update `consume` set `update_at` = "1573917783" where `id` = "219"
+
+ execution time: 24.2ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 3.85ms; update `consume` set `update_at` = "1573917783" where `id` = "221"
+
+ execution time: 7.52ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 24.26ms; update `consume` set `update_at` = "1573917783" where `id` = "223"
+
+ execution time: 0.58ms; select * from `consume` where `consume`.`id` = "228" limit 1
+
+ execution time: 7.12ms; update `consume` set `update_at` = "1573917783" where `id` = "228"
+
+ execution time: 6.7ms; select * from `consume` where `consume`.`id` = "229" limit 1
+
+ execution time: 25.62ms; update `consume` set `update_at` = "1573917783" where `id` = "229"
+
+ execution time: 1.52ms; select * from `consume` where `consume`.`id` = "230" limit 1
+
+ execution time: 3.8ms; update `consume` set `update_at` = "1573917783" where `id` = "230"
+
+ execution time: 7.75ms; select * from `consume` where `consume`.`id` = "232" limit 1
+
+ execution time: 24.67ms; update `consume` set `update_at` = "1573917783" where `id` = "232"
+
+ execution time: 0.75ms; select * from `consume` where `consume`.`id` = "234" limit 1
+
+ execution time: 4.51ms; update `consume` set `update_at` = "1573917783" where `id` = "234"
+
+ execution time: 7.75ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 24.29ms; update `consume` set `update_at` = "1573917783" where `id` = "236"
+
+ execution time: 1.41ms; select * from `consume` where `consume`.`id` = "238" limit 1
+
+ execution time: 4.2ms; update `consume` set `update_at` = "1573917783" where `id` = "238"
+
+ execution time: 6.79ms; select * from `consume` where `consume`.`id` = "242" limit 1
+
+ execution time: 27.76ms; update `consume` set `update_at` = "1573917783" where `id` = "242"
+
+ execution time: 0.71ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 4.46ms; update `consume` set `update_at` = "1573917783" where `id` = "255"
+
+ execution time: 6.8ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 23.32ms; update `consume` set `update_at` = "1573917783" where `id` = "381"
+
+ execution time: 1.7ms; select * from `consume` where `consume`.`id` = "391" limit 1
+
+ execution time: 3.85ms; update `consume` set `update_at` = "1573917783" where `id` = "391"
+
+ execution time: 7.69ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 26.2ms; update `consume` set `update_at` = "1573917783" where `id` = "535"
+
+ execution time: 0.61ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 4.02ms; update `consume` set `update_at` = "1573917783" where `id` = "545"
+
+ execution time: 6.72ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 25.46ms; update `consume` set `update_at` = "1573917783" where `id` = "546"
+
+ execution time: 0.69ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 6.84ms; update `consume` set `update_at` = "1573917783" where `id` = "547"
+
+ execution time: 23.81ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 3.43ms; update `consume` set `update_at` = "1573917783" where `id` = "548"
+
+ execution time: 7.64ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 28.81ms; update `consume` set `update_at` = "1573917783" where `id` = "549"
+
+ execution time: 22.03ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 3.88ms; update `consume` set `update_at` = "1573917783" where `id` = "550"
+
+ execution time: 7.66ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 23.52ms; update `consume` set `update_at` = "1573917783" where `id` = "551"
+
+ execution time: 3.1ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 10.5ms; update `consume` set `update_at` = "1573917783" where `id` = "552"
+
+ execution time: 19.08ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 3.96ms; update `consume` set `update_at` = "1573917783" where `id` = "553"
+
+ execution time: 7.65ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 26.42ms; update `consume` set `update_at` = "1573917783" where `id` = "554"
+
+ execution time: 1.8ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 3.66ms; update `consume` set `update_at` = "1573917783" where `id` = "555"
+
+ execution time: 6.75ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 26.68ms; update `consume` set `update_at` = "1573917783" where `id` = "556"
+
+ execution time: 0.63ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 5.86ms; update `consume` set `update_at` = "1573917783" where `id` = "557"
+
+ execution time: 24.23ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 4.95ms; update `consume` set `update_at` = "1573917783" where `id` = "560"
+
+ execution time: 7.72ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 26.18ms; update `consume` set `update_at` = "1573917783" where `id` = "561"
+
+ execution time: 1.54ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 3.07ms; update `consume` set `update_at` = "1573917783" where `id` = "563"
+
+ execution time: 6.78ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 23.31ms; update `consume` set `update_at` = "1573917783" where `id` = "566"
+
+ execution time: 0.64ms; select * from `consume` where `consume`.`id` = "567" limit 1
+
+ execution time: 3.9ms; update `consume` set `update_at` = "1573917783" where `id` = "567"
+
+ execution time: 6.71ms; select * from `consume` where `consume`.`id` = "568" limit 1
+
+ execution time: 23.28ms; update `consume` set `update_at` = "1573917783" where `id` = "568"
+
+ execution time: 31.32ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.73ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.17ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 35.93ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.63ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.88ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 42.11ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 30.09ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.82ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.86ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.31ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.37ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.65ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.64ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.83ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.59ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 43.91ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.29ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 49.23ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 42.01ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.46ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 65.87ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.28ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.12ms; select exists(select * from `article` where `id` = "20") as `exists`
+
+ execution time: 6.66ms; select max(`id`) as aggregate from `article` where `id` < "20"
+
+ execution time: 5.81ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 6.58ms; select min(`id`) as aggregate from `article` where `id` > "20"
+
+ execution time: 23.87ms; select `id`, `title` from `article` where `id` != "20" order by RAND() limit 1
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `category_id` is null
+
+ execution time: 42.23ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.19ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.58ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.83ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 55.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.41ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.82ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.82ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.12ms; select exists(select * from `article` where `id` = "7") as `exists`
+
+ execution time: 6.72ms; select * from `article` where `id` = "7" limit 1
+
+ execution time: 11.59ms; update `article` set `browse` = `browse` + 1 where `id` = "7"
+
+ execution time: 23.49ms; select max(`id`) as aggregate from `article` where `id` < "7"
+
+ execution time: 4.83ms; select `id`, `title` from `article` where `id` = "6" limit 1
+
+ execution time: 6.78ms; select min(`id`) as aggregate from `article` where `id` > "7"
+
+ execution time: 7.78ms; select `id`, `title` from `article` where `id` = "8" limit 1
+
+ execution time: 6.71ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 56.94ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 44.11ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.72ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.16ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.88ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.9ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.86ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 51.1ms; select exists(select * from `article` where `id` = "4") as `exists`
+
+ execution time: 8.71ms; select * from `article` where `id` = "4" limit 1
+
+ execution time: 9.75ms; update `article` set `browse` = `browse` + 1 where `id` = "4"
+
+ execution time: 20.7ms; select max(`id`) as aggregate from `article` where `id` < "4"
+
+ execution time: 4.46ms; select `id`, `title` from `article` where `id` = "3" limit 1
+
+ execution time: 7.75ms; select min(`id`) as aggregate from `article` where `id` > "4"
+
+ execution time: 6.77ms; select `id`, `title` from `article` where `id` = "5" limit 1
+
+ execution time: 6.69ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 6.87ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 41.38ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.73ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.14ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36.1ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.82ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.19ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 34.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.11ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.44ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 38.02ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.25ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.51ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 31.85ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.86ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.47ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 35.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 8.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.65ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 36ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.87ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 50.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 50.08ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 49.99ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.56ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 131.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.19ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.49ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.94ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.93ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 41.21ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.77ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.91ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 8.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 8.48ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 34.06ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.78ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.18ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.57ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.89ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.6ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 37.71ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.76ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.24ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.93ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 7.54ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 33.04ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.42ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 8.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.85ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.5ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.91ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.53ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 40.7ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.79ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 7.22ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 7.52ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 7.88ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.45ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
+ execution time: 32.15ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.8ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 6.27ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.9ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 6.55ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 5.92ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 6.59ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 6.91ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+

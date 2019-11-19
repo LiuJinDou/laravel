@@ -1,0 +1,170 @@
+ execution time: 4.64ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 0.67ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 28.68ms; update `consume` set `update_at` = "1572362582" where `id` = "1"
+
+ execution time: 0.63ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 0.57ms; update `consume` set `update_at` = "1572362582" where `id` = "2"
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1572362582" where `id` = "8"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 2.23ms; update `consume` set `update_at` = "1572362582" where `id` = "19"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1572362582" where `id` = "27"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1572362582" where `id` = "31"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1572362582" where `id` = "33"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1572362582" where `id` = "126"
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1572362582" where `id` = "128"
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 0.39ms; update `consume` set `update_at` = "1572362582" where `id` = "164"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1572362582" where `id` = "190"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1572362582" where `id` = "202"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 1.02ms; update `consume` set `update_at` = "1572362582" where `id` = "209"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 0.52ms; update `consume` set `update_at` = "1572362582" where `id` = "210"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 0.47ms; update `consume` set `update_at` = "1572362582" where `id` = "211"
+
+ execution time: 0.43ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.43ms; update `consume` set `update_at` = "1572362582" where `id` = "213"
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1572362582" where `id` = "214"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1572362582" where `id` = "215"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 0.44ms; update `consume` set `update_at` = "1572362582" where `id` = "219"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1572362582" where `id` = "221"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1572362582" where `id` = "223"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 0.44ms; update `consume` set `update_at` = "1572362582" where `id` = "236"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 1.06ms; update `consume` set `update_at` = "1572362582" where `id` = "255"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 0.37ms; update `consume` set `update_at` = "1572362582" where `id` = "381"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1572362582" where `id` = "535"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1572362582" where `id` = "545"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1572362582" where `id` = "546"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1572362582" where `id` = "547"
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1572362582" where `id` = "548"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1572362582" where `id` = "549"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 0.37ms; update `consume` set `update_at` = "1572362582" where `id` = "550"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1572362582" where `id` = "551"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 1.84ms; update `consume` set `update_at` = "1572362582" where `id` = "552"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1572362582" where `id` = "553"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1572362582" where `id` = "554"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1572362582" where `id` = "555"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1572362582" where `id` = "556"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1572362582" where `id` = "557"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1572362582" where `id` = "560"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1572362582" where `id` = "561"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1572362582" where `id` = "563"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 1.04ms; update `consume` set `update_at` = "1572362582" where `id` = "566"
+

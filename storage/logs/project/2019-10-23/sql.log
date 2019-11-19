@@ -1,0 +1,1208 @@
+ execution time: 1.66ms; select * from `admins` where `name` = "admin" limit 1
+
+ execution time: 1.39ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.32ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.27ms; select * from `privilege_group`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.56ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.46ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.32ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.4ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.62ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.7ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.41ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select count(*) as aggregate from `consume`
+
+ execution time: 0.36ms; select * from `consume` limit 10 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.6ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.27ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.56ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.55ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.3ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.38ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.38ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.28ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.34ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.42ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.33ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.23ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.3ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.44ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.4ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.29ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.49ms; update `consume` set `amount` = "85579" where `id` = "213"
+
+ execution time: 0.49ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811152", "2", "易通行", "2019-10-22", "400", "", "213", "常营——良乡南关", "花呗")
+
+ execution time: 1.23ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.55ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.47ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.5ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.61ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.42ms; update `consume` set `amount` = "85979" where `id` = "213"
+
+ execution time: 0.45ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811170", "2", "易通行", "2019-10-23", "400", "", "213", "良乡南关——常营", "花呗")
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.48ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-22"
+
+ execution time: 0.51ms; select * from `consume_detail` where `date` = "2019-10-22" limit 10 offset 0
+
+ execution time: 0.67ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.18ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.55ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.56ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.36ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.55ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.29ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.53ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.57ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.41ms; update `consume` set `amount` = "694088" where `id` = "209"
+
+ execution time: 0.54ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811198", "2", "俊其便利店2店", "2019-10-23", "700", "", "209", "手抓饼", "花呗")
+
+ execution time: 1.56ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.64ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.57ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.32ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.47ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.58ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.65ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 44.24ms; update `consume` set `amount` = "695238" where `id` = "209"
+
+ execution time: 0.59ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811234", "2", "张龙", "2019-10-23", "1150", "", "209", "蛋炒饭", "微信支付")
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.48ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.55ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.47ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.28ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.5ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 0.52ms; update `consume` set `amount` = "2600" where `id` = "535"
+
+ execution time: 0.36ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811288", "2", "阿里云", "2019-10-23", "2600", "", "535", "mengshadow.top", "花呗")
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.58ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.59ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.23ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.39ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.35ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.48ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.29ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.49ms; update `consume` set `amount` = "695638" where `id` = "209"
+
+ execution time: 0.33ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571811307", "2", "易通行", "2019-10-23", "400", "", "209", "常营——良乡南关", "花呗")
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-23"
+
+ execution time: 0.57ms; select * from `consume_detail` where `date` = "2019-10-23" limit 10 offset 0
+
+ execution time: 0.53ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.46ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.37ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.39ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.61ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.72ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.36ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.26ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.25ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.29ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.26ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.32ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.21ms; select * from `privilege_group`
+
+ execution time: 1.2ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.31ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.26ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.32ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.31ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 4.59ms; update `admins` set `remember_token` = "jcJJgEpU5f0Vu51cL10g3FNLnGeXtkaEHwQfJdGCvEs4O1vEW3ekZa8zYogq" where `id` = "2"
+
+ execution time: 7.56ms; select * from `admins` where `name` = "admin" limit 1
+
+ execution time: 1.44ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.42ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.23ms; select * from `privilege_group`
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.3ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.32ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.3ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.33ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.3ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 2.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.23ms; select `id`, `name` from `article_category`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.53ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.58ms; select * from `article` where `title` like "%%" limit 10 offset 0
+
+ execution time: 0.23ms; select `id`, `name` from `article_category`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select * from `privileges`
+
+ execution time: 0.21ms; select * from `privilege_group`
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select * from `privilege_group` where `privilege_group`.`id` = "1" limit 1
+
+ execution time: 0.46ms; update `privilege_group` set `group_name` = "Privileges", `create_at` = "1571816118", `create_uid` = "2" where `id` = "1"
+
+ execution time: 1.46ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select * from `privilege_group` where `privilege_group`.`id` = "3" limit 1
+
+ execution time: 0.49ms; update `privilege_group` set `group_name` = "Articles", `create_at` = "1571816125", `create_uid` = "2" where `id` = "3"
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select * from `privilege_group` where `privilege_group`.`id` = "4" limit 1
+
+ execution time: 12.11ms; update `privilege_group` set `group_name` = "Users", `create_at` = "1571816132", `create_uid` = "2" where `id` = "4"
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select * from `privilege_group` where `privilege_group`.`id` = "5" limit 1
+
+ execution time: 0.45ms; update `privilege_group` set `group_name` = "Systems", `create_at` = "1571816139", `create_uid` = "2" where `id` = "5"
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.39ms; select * from `privilege_group` where `privilege_group`.`id` = "6" limit 1
+
+ execution time: 0.57ms; update `privilege_group` set `group_name` = "Consumes", `create_at` = "1571816147" where `id` = "6"
+
+ execution time: 1.4ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select * from `privileges`
+
+ execution time: 0.33ms; select * from `privilege_group`
+
+ execution time: 1.6ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.36ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.4ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.31ms; select * from `privilege_group`
+
+ execution time: 1.69ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.82ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.33ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.28ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.28ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.37ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.3ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.5ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 2.88ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.3ms; select * from `privileges`
+
+ execution time: 0.29ms; select * from `privilege_group`
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.6ms; select * from `privileges` where `privileges`.`id` = "1" limit 1
+
+ execution time: 0.63ms; update `privileges` set `privilege_name` = "add-privilege" where `id` = "1"
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.52ms; select * from `privileges` where `privileges`.`id` = "2" limit 1
+
+ execution time: 0.42ms; update `privileges` set `privilege_name` = "roles" where `id` = "2"
+
+ execution time: 1.4ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.54ms; select * from `privileges` where `privileges`.`id` = "3" limit 1
+
+ execution time: 0.54ms; update `privileges` set `privilege_name` = "members" where `id` = "3"
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.51ms; select * from `privileges` where `privileges`.`id` = "1" limit 1
+
+ execution time: 0.44ms; update `privileges` set `privilege_name` = "privileges" where `id` = "1"
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 1.89ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.25ms; select * from `privilege_group`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 3.16ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.3ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.27ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.37ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.39ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.62ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.51ms; select * from `privileges`
+
+ execution time: 0.25ms; select * from `privilege_group`
+
+ execution time: 2.02ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `roles` where `name` like "%%"
+
+ execution time: 0.33ms; select * from `roles` where `name` like "%%" limit 10 offset 0
+
+ execution time: 0.5ms; select `id`, `role_id`, count(*) as total from `admins` group by `role_id`
+
+ execution time: 0.31ms; select `id`, `role_id`, `name` from `admins`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.17ms; select count(*) as aggregate from `admins` where `name` like "%%"
+
+ execution time: 0.36ms; select * from `admins` where `name` like "%%" limit 10 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `roles`
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 4.55ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select `id`, `name` from `article_category`
+
+ execution time: 1.58ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.46ms; select * from `article` where `title` like "%%" limit 10 offset 0
+
+ execution time: 0.26ms; select `id`, `name` from `article_category`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select * from `privileges` where `privileges`.`id` = "6" limit 1
+
+ execution time: 0.52ms; update `privileges` set `privilege_name` = "dictionarys" where `id` = "6"
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select * from `privileges` where `privileges`.`id` = "13" limit 1
+
+ execution time: 23.91ms; update `privileges` set `privilege_name` = "rules" where `id` = "13"
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.49ms; select * from `privileges` where `privileges`.`id` = "14" limit 1
+
+ execution time: 0.43ms; update `privileges` set `privilege_name` = "updates" where `id` = "14"
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.98ms; select * from `privileges` where `privileges`.`id` = "9" limit 1
+
+ execution time: 0.45ms; update `privileges` set `privilege_name` = "lists" where `id` = "9"
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.57ms; select * from `privileges` where `privileges`.`id` = "10" limit 1
+
+ execution time: 0.6ms; update `privileges` set `privilege_name` = "category" where `id` = "10"
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select * from `privileges` where `privileges`.`id` = "12" limit 1
+
+ execution time: 0.47ms; update `privileges` set `privilege_name` = "detailList" where `id` = "12"
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select * from `privileges`
+
+ execution time: 0.25ms; select * from `privilege_group`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.53ms; select * from `privileges` where `privileges`.`id` = "4" limit 1
+
+ execution time: 0.45ms; update `privileges` set `privilege_name` = "list" where `id` = "4"
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select * from `privileges` where `privileges`.`id` = "5" limit 1
+
+ execution time: 0.54ms; update `privileges` set `privilege_name` = "category" where `id` = "5"
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.57ms; select * from `privileges` where `privileges`.`id` = "11" limit 1
+
+ execution time: 0.47ms; update `privileges` set `privilege_name` = "message" where `id` = "11"
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.33ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.5ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.31ms; select * from `privilege_group`
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.29ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.25ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.26ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.27ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.33ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.29ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.22ms; select * from `privilege_group`
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 2.04ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.33ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.26ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.29ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.31ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.22ms; select * from `privilege_group`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.35ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.27ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.26ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.35ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.23ms; select * from `privilege_group`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 2.38ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.33ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.29ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.4ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.24ms; select * from `privilege_group`
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.33ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.27ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.37ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.34ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.5ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.42ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.23ms; select * from `privilege_group`
+
+ execution time: 1.76ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.36ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.56ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.58ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.24ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.34ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.29ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.3ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.24ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.29ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.26ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.35ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.39ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.25ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.29ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.27ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.34ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.44ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.35ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.36ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.35ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.25ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.33ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.27ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.34ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.28ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.34ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.26ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.31ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.32ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.27ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.38ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.27ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.26ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.29ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.38ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.24ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.31ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.26ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.62ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.33ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.37ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.25ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.28ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.29ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.35ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.25ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.26ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.27ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.39ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.38ms; select count(*) as aggregate from `consume`
+
+ execution time: 0.43ms; select * from `consume` limit 10 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.23ms; select count(*) as aggregate from `consume`
+
+ execution time: 0.36ms; select * from `consume` limit 10 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.82ms; SELECT table_name ,table_comment FROM information_schema.TABLES WHERE table_schema = "blog" ORDER BY table_name
+
+ execution time: 2.15ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='admins'
+
+ execution time: 1.05ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='article'
+
+ execution time: 0.98ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='article_category'
+
+ execution time: 1.08ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='consume'
+
+ execution time: 0.95ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='consume_category'
+
+ execution time: 1.14ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='consume_detail'
+
+ execution time: 0.82ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='develop_rule'
+
+ execution time: 1.02ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='message'
+
+ execution time: 0.93ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='migrations'
+
+ execution time: 0.99ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='privileges'
+
+ execution time: 0.97ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='privilege_group'
+
+ execution time: 1.02ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='roles'
+
+ execution time: 0.77ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='role_privilege'
+
+ execution time: 0.94ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='update_log'
+
+ execution time: 1.07ms; SELECT * FROM information_schema.columns where TABLE_SCHEMA = 'blog' AND TABLE_NAME ='users'
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select * from `develop_rule`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select * from `update_log`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select `id`, `name` from `article_category`
+
+ execution time: 1.23ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.46ms; select * from `article` where `title` like "%%" limit 10 offset 0
+
+ execution time: 0.23ms; select `id`, `name` from `article_category`
+
+ execution time: 2.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select `id`, `name` from `article_category`
+
+ execution time: 1.37ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.25ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.3ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.22ms; select * from `privilege_group`
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.28ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.23ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.32ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.26ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.26ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.38ms; select * from `privileges`
+
+ execution time: 0.31ms; select * from `privilege_group`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.28ms; select count(*) as aggregate from `roles` where `name` like "%%"
+
+ execution time: 0.27ms; select * from `roles` where `name` like "%%" limit 10 offset 0
+
+ execution time: 0.24ms; select `id`, `role_id`, count(*) as total from `admins` group by `role_id`
+
+ execution time: 0.21ms; select `id`, `role_id`, `name` from `admins`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.75ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.32ms; select `id`, `name` from `article_category`
+
+ execution time: 1.4ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `title` like "%%"
+
+ execution time: 0.37ms; select * from `article` where `title` like "%%" limit 10 offset 0
+
+ execution time: 1.35ms; select `id`, `name` from `article_category`
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 3.12ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 0.55ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 0.58ms; update `consume` set `update_at` = "1571844182" where `id` = "1"
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 29.44ms; update `consume` set `update_at` = "1571844182" where `id` = "2"
+
+ execution time: 0.71ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1571844182" where `id` = "8"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571844182" where `id` = "19"
+
+ execution time: 0.53ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1571844182" where `id` = "27"
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1571844182" where `id` = "31"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 4.41ms; update `consume` set `update_at` = "1571844182" where `id` = "33"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571844182" where `id` = "126"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571844182" where `id` = "128"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 1.17ms; update `consume` set `update_at` = "1571844182" where `id` = "164"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571844182" where `id` = "190"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571844182" where `id` = "202"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.32ms; update `consume` set `real_amount` = "181536", `update_at` = "1571844182" where `id` = "209"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571844182" where `id` = "210"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 0.64ms; update `consume` set `update_at` = "1571844182" where `id` = "211"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.41ms; update `consume` set `real_amount` = "72864", `update_at` = "1571844182" where `id` = "213"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "214"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1571844182" where `id` = "215"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 1.12ms; update `consume` set `update_at` = "1571844182" where `id` = "219"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "221"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1571844182" where `id` = "223"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "236"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 0.38ms; update `consume` set `update_at` = "1571844182" where `id` = "255"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571844182" where `id` = "381"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 0.42ms; update `consume` set `real_amount` = "14362", `update_at` = "1571844182" where `id` = "535"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571844182" where `id` = "545"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571844182" where `id` = "546"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571844182" where `id` = "547"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 1.36ms; update `consume` set `update_at` = "1571844182" where `id` = "548"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "549"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "550"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571844182" where `id` = "551"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571844182" where `id` = "552"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571844182" where `id` = "553"
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571844182" where `id` = "554"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571844182" where `id` = "555"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 0.91ms; update `consume` set `update_at` = "1571844182" where `id` = "556"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "557"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 0.39ms; update `consume` set `update_at` = "1571844182" where `id` = "560"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571844182" where `id` = "561"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 0.42ms; update `consume` set `update_at` = "1571844182" where `id` = "563"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571844182" where `id` = "566"
+

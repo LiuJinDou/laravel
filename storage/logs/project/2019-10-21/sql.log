@@ -1,0 +1,974 @@
+ execution time: 1.26ms; select count(*) as aggregate from `article`
+
+ execution time: 0.39ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.38ms; select count(*) as aggregate from `article`
+
+ execution time: 0.33ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article`
+
+ execution time: 0.28ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article`
+
+ execution time: 0.28ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.23ms; select count(*) as aggregate from `article`
+
+ execution time: 0.49ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article`
+
+ execution time: 0.29ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.26ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.34ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.27ms; select count(*) as aggregate from `article`
+
+ execution time: 0.46ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article`
+
+ execution time: 0.32ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.32ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.21ms; select count(*) as aggregate from `article`
+
+ execution time: 0.26ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.46ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.23ms; select count(*) as aggregate from `article`
+
+ execution time: 0.4ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article`
+
+ execution time: 0.32ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article`
+
+ execution time: 0.28ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 9.58ms; select exists(select * from `article` where `title` like "%心得笔记%") as `exists`
+
+ execution time: 9.89ms; select exists(select * from `article` where `title` like "%框架%") as `exists`
+
+ execution time: 5.03ms; select exists(select * from `article` where `title` like "%读后感%") as `exists`
+
+ execution time: 5.42ms; select exists(select * from `article` where `title` like "%随心记录%") as `exists`
+
+ execution time: 1.19ms; select exists(select * from `article` where `title` like "%MYSQL%") as `exists`
+
+ execution time: 4ms; select exists(select * from `article` where `title` like "%PHP%") as `exists`
+
+ execution time: 0.53ms; select count(*) as aggregate from `article` where `title` like "%PHP%"
+
+ execution time: 2.64ms; select exists(select * from `article` where `title` like "%Linux%") as `exists`
+
+ execution time: 2.34ms; select * from `article` where `title` like "%PHP%" limit 15 offset 0
+
+ execution time: 2.52ms; select exists(select * from `article` where `title` like "%习惯%") as `exists`
+
+ execution time: 2.4ms; select exists(select * from `article` where `title` like "%自律%") as `exists`
+
+ execution time: 1.61ms; select count(*) as aggregate from `article` where `title` like "%习惯%"
+
+ execution time: 9.04ms; select exists(select * from `article` where `title` like "%美食%") as `exists`
+
+ execution time: 3.22ms; select count(*) as aggregate from `article` where `title` like "%自律%"
+
+ execution time: 3.25ms; select * from `article` where `title` like "%习惯%" limit 15 offset 0
+
+ execution time: 2.8ms; select * from `article` where `title` like "%自律%" limit 15 offset 0
+
+ execution time: 3.72ms; select exists(select * from `article` where `id` = "8") as `exists`
+
+ execution time: 0.58ms; select * from `article` where `id` = "8" limit 1
+
+ execution time: 1.97ms; update `article` set `browse` = `browse` + 1 where `id` = "8"
+
+ execution time: 50.59ms; select max(`id`) as aggregate from `article` where `id` < "8"
+
+ execution time: 0.45ms; select `id`, `title` from `article` where `id` = "7" limit 1
+
+ execution time: 0.3ms; select min(`id`) as aggregate from `article` where `id` > "8"
+
+ execution time: 0.35ms; select `id`, `title` from `article` where `id` = "9" limit 1
+
+ execution time: 0.36ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.6ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 5.06ms; select exists(select * from `article` where `id` = "7") as `exists`
+
+ execution time: 2.54ms; select exists(select * from `article` where `id` = "2") as `exists`
+
+ execution time: 0.41ms; select * from `article` where `id` = "2" limit 1
+
+ execution time: 1.67ms; select * from `article` where `id` = "7" limit 1
+
+ execution time: 1.27ms; update `article` set `browse` = `browse` + 1 where `id` = "2"
+
+ execution time: 0.95ms; update `article` set `browse` = `browse` + 1 where `id` = "7"
+
+ execution time: 0.9ms; select max(`id`) as aggregate from `article` where `id` < "2"
+
+ execution time: 0.75ms; select max(`id`) as aggregate from `article` where `id` < "7"
+
+ execution time: 0.83ms; select `id`, `title` from `article` where `id` = "1" limit 1
+
+ execution time: 0.89ms; select `id`, `title` from `article` where `id` = "6" limit 1
+
+ execution time: 0.86ms; select min(`id`) as aggregate from `article` where `id` > "2"
+
+ execution time: 0.79ms; select min(`id`) as aggregate from `article` where `id` > "7"
+
+ execution time: 0.72ms; select `id`, `title` from `article` where `id` = "3" limit 1
+
+ execution time: 0.87ms; select `id`, `title` from `article` where `id` = "8" limit 1
+
+ execution time: 1.06ms; select count(*) as aggregate from `article` where `category_id` = "3"
+
+ execution time: 0.84ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 1.08ms; select * from `article` where `category_id` = "3" limit 6 offset 0
+
+ execution time: 3.09ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 9.81ms; select exists(select * from `article` where `id` = "47") as `exists`
+
+ execution time: 0.77ms; select * from `article` where `id` = "47" limit 1
+
+ execution time: 0.77ms; update `article` set `browse` = `browse` + 1 where `id` = "47"
+
+ execution time: 0.31ms; select max(`id`) as aggregate from `article` where `id` < "47"
+
+ execution time: 0.41ms; select `id`, `title` from `article` where `id` = "46" limit 1
+
+ execution time: 0.32ms; select min(`id`) as aggregate from `article` where `id` > "47"
+
+ execution time: 0.31ms; select `id`, `title` from `article` where `id` = "48" limit 1
+
+ execution time: 0.35ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 0.45ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 6.63ms; select exists(select * from `article` where `id` = "23") as `exists`
+
+ execution time: 0.71ms; select * from `article` where `id` = "23" limit 1
+
+ execution time: 0.48ms; update `article` set `browse` = `browse` + 1 where `id` = "23"
+
+ execution time: 0.34ms; select max(`id`) as aggregate from `article` where `id` < "23"
+
+ execution time: 0.34ms; select `id`, `title` from `article` where `id` = "22" limit 1
+
+ execution time: 0.28ms; select min(`id`) as aggregate from `article` where `id` > "23"
+
+ execution time: 0.32ms; select `id`, `title` from `article` where `id` = "24" limit 1
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 0.48ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 2.21ms; select exists(select * from `article` where `id` = "14") as `exists`
+
+ execution time: 1.28ms; select * from `article` where `id` = "14" limit 1
+
+ execution time: 0.78ms; update `article` set `browse` = `browse` + 1 where `id` = "14"
+
+ execution time: 0.31ms; select max(`id`) as aggregate from `article` where `id` < "14"
+
+ execution time: 0.45ms; select `id`, `title` from `article` where `id` = "13" limit 1
+
+ execution time: 0.29ms; select min(`id`) as aggregate from `article` where `id` > "14"
+
+ execution time: 0.36ms; select `id`, `title` from `article` where `id` = "15" limit 1
+
+ execution time: 0.33ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 0.52ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 8.12ms; select exists(select * from `article` where `id` = "30") as `exists`
+
+ execution time: 6.33ms; select exists(select * from `article` where `id` = "50") as `exists`
+
+ execution time: 15.16ms; select exists(select * from `article` where `id` = "40") as `exists`
+
+ execution time: 3.12ms; select * from `article` where `id` = "30" limit 1
+
+ execution time: 2.03ms; select * from `article` where `id` = "50" limit 1
+
+ execution time: 2.28ms; select * from `article` where `id` = "40" limit 1
+
+ execution time: 2.16ms; update `article` set `browse` = `browse` + 1 where `id` = "30"
+
+ execution time: 3.67ms; select max(`id`) as aggregate from `article` where `id` < "30"
+
+ execution time: 0.5ms; select `id`, `title` from `article` where `id` = "29" limit 1
+
+ execution time: 0.28ms; select min(`id`) as aggregate from `article` where `id` > "30"
+
+ execution time: 0.35ms; select `id`, `title` from `article` where `id` = "31" limit 1
+
+ execution time: 20.71ms; update `article` set `browse` = `browse` + 1 where `id` = "50"
+
+ execution time: 20.7ms; update `article` set `browse` = `browse` + 1 where `id` = "40"
+
+ execution time: 0.66ms; select max(`id`) as aggregate from `article` where `id` < "40"
+
+ execution time: 1.51ms; select max(`id`) as aggregate from `article` where `id` < "50"
+
+ execution time: 0.88ms; select `id`, `title` from `article` where `id` = "39" limit 1
+
+ execution time: 0.93ms; select `id`, `title` from `article` where `id` = "49" limit 1
+
+ execution time: 0.93ms; select min(`id`) as aggregate from `article` where `id` > "40"
+
+ execution time: 0.83ms; select min(`id`) as aggregate from `article` where `id` > "50"
+
+ execution time: 0.85ms; select `id`, `title` from `article` where `id` = "41" limit 1
+
+ execution time: 0.91ms; select `id`, `title` from `article` where `id` = "51" limit 1
+
+ execution time: 0.96ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 1.12ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.99ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 3.19ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 100.66ms; select count(*) as aggregate from `article` where `category_id` = "2"
+
+ execution time: 0.38ms; select * from `article` where `category_id` = "2" limit 6 offset 0
+
+ execution time: 1.55ms; select exists(select * from `article` where `id` = "48") as `exists`
+
+ execution time: 0.42ms; select * from `article` where `id` = "48" limit 1
+
+ execution time: 0.8ms; update `article` set `browse` = `browse` + 1 where `id` = "48"
+
+ execution time: 0.41ms; select max(`id`) as aggregate from `article` where `id` < "48"
+
+ execution time: 0.29ms; select `id`, `title` from `article` where `id` = "47" limit 1
+
+ execution time: 0.34ms; select min(`id`) as aggregate from `article` where `id` > "48"
+
+ execution time: 0.3ms; select `id`, `title` from `article` where `id` = "49" limit 1
+
+ execution time: 0.39ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.5ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 1.63ms; select exists(select * from `article` where `id` = "31") as `exists`
+
+ execution time: 0.44ms; select * from `article` where `id` = "31" limit 1
+
+ execution time: 0.46ms; update `article` set `browse` = `browse` + 1 where `id` = "31"
+
+ execution time: 0.48ms; select max(`id`) as aggregate from `article` where `id` < "31"
+
+ execution time: 0.33ms; select `id`, `title` from `article` where `id` = "30" limit 1
+
+ execution time: 0.36ms; select min(`id`) as aggregate from `article` where `id` > "31"
+
+ execution time: 0.28ms; select `id`, `title` from `article` where `id` = "32" limit 1
+
+ execution time: 0.39ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.5ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 4.38ms; select exists(select * from `article` where `id` = "15") as `exists`
+
+ execution time: 0.52ms; select * from `article` where `id` = "15" limit 1
+
+ execution time: 0.83ms; update `article` set `browse` = `browse` + 1 where `id` = "15"
+
+ execution time: 0.3ms; select max(`id`) as aggregate from `article` where `id` < "15"
+
+ execution time: 0.36ms; select `id`, `title` from `article` where `id` = "14" limit 1
+
+ execution time: 0.3ms; select min(`id`) as aggregate from `article` where `id` > "15"
+
+ execution time: 0.35ms; select `id`, `title` from `article` where `id` = "16" limit 1
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.56ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 1.3ms; select count(*) as aggregate from `article`
+
+ execution time: 0.65ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.28ms; select count(*) as aggregate from `article`
+
+ execution time: 0.45ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.36ms; select count(*) as aggregate from `article`
+
+ execution time: 0.39ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.27ms; select count(*) as aggregate from `article`
+
+ execution time: 0.42ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.11ms; select count(*) as aggregate from `article`
+
+ execution time: 0.39ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.31ms; select count(*) as aggregate from `article`
+
+ execution time: 0.28ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.21ms; select count(*) as aggregate from `article`
+
+ execution time: 0.25ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.33ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.28ms; select exists(select * from `article` where `id` = "8") as `exists`
+
+ execution time: 0.43ms; select * from `article` where `id` = "8" limit 1
+
+ execution time: 0.58ms; update `article` set `browse` = `browse` + 1 where `id` = "8"
+
+ execution time: 0.31ms; select max(`id`) as aggregate from `article` where `id` < "8"
+
+ execution time: 0.31ms; select `id`, `title` from `article` where `id` = "7" limit 1
+
+ execution time: 0.28ms; select min(`id`) as aggregate from `article` where `id` > "8"
+
+ execution time: 0.31ms; select `id`, `title` from `article` where `id` = "9" limit 1
+
+ execution time: 0.32ms; select count(*) as aggregate from `article` where `category_id` = "1"
+
+ execution time: 0.48ms; select * from `article` where `category_id` = "1" limit 6 offset 0
+
+ execution time: 1.33ms; select count(*) as aggregate from `article`
+
+ execution time: 0.67ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.21ms; select count(*) as aggregate from `article`
+
+ execution time: 0.52ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.21ms; select count(*) as aggregate from `article`
+
+ execution time: 0.47ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.22ms; select count(*) as aggregate from `article`
+
+ execution time: 0.49ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.34ms; select count(*) as aggregate from `article`
+
+ execution time: 0.46ms; select * from `article` order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.29ms; select count(*) as aggregate from `article`
+
+ execution time: 0.32ms; select * from `article` order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.28ms; select * from `article` order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.2ms; select count(*) as aggregate from `article`
+
+ execution time: 0.33ms; select * from `article` order by `browse` desc limit 6 offset 0
+
+ execution time: 1.28ms; select * from `admins` where `name` = "admin" limit 1
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select * from `role_privilege` where `role_id` = "3"
+
+ execution time: 0.34ms; select * from `privileges` where `id` in ("1", "2", "3", "4", "5", "6", "9", "10", "11", "12", "13", "14") and `type` = "2"
+
+ execution time: 0.27ms; select * from `privilege_group`
+
+ execution time: 1.32ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.29ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.38ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.4ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.62ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.76ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 1.51ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.23ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.36ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.6ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.19ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.41ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-19"
+
+ execution time: 0.5ms; select * from `consume_detail` where `date` = "2019-10-19" limit 10 offset 0
+
+ execution time: 0.35ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.42ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.51ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.47ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.51ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.31ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.52ms; update `consume` set `amount` = "688468" where `id` = "209"
+
+ execution time: 0.43ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642753", "2", "彬彬图文广告", "2019-10-20", "100", "", "209", "准考证", "花呗")
+
+ execution time: 1.18ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.53ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.49ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.5ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.46ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.24ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.51ms; update `consume` set `amount` = "83729" where `id` = "213"
+
+ execution time: 14.38ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642790", "2", "易通行", "2019-10-20", "250", "", "213", "良乡南关——房山城关", "花呗")
+
+ execution time: 1.45ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.53ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.48ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.47ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.51ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.26ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.29ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.26ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.45ms; update `consume` set `amount` = "689028" where `id` = "209"
+
+ execution time: 0.79ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642821", "2", "郭春秀", "2019-10-20", "560", "", "209", "红薯、豆芽", "")
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.47ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.5ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.24ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.34ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.54ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.3ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.38ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.24ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.43ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.54ms; update `consume` set `amount` = "689328" where `id` = "209"
+
+ execution time: 0.39ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642867", "2", "可欣", "2019-10-20", "300", "", "209", "馒头面包", "花呗")
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.58ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.53ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.38ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.5ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.46ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.26ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.28ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.46ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.43ms; update `consume` set `amount` = "689658" where `id` = "209"
+
+ execution time: 23.94ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642889", "2", "厚德载物", "2019-10-20", "330", "", "209", "辣椒", "花呗")
+
+ execution time: 1.8ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.48ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.62ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.49ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.24ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.53ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.47ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.27ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.3ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.25ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.3ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.4ms; update `consume` set `amount` = "83979" where `id` = "213"
+
+ execution time: 0.35ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642937", "2", "易通行", "2019-10-20", "250", "", "213", "房山城关——良乡南关", "花呗")
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.56ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.5ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.24ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.2ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.51ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.25ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.02ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.52ms; update `consume` set `amount` = "84379" where `id` = "213"
+
+ execution time: 0.35ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571642971", "2", "易通行", "2019-10-21", "400", "", "213", "良乡南关——常营", "花呗")
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-20"
+
+ execution time: 0.52ms; select * from `consume_detail` where `date` = "2019-10-20" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.23ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.22ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.52ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-21"
+
+ execution time: 0.5ms; select * from `consume_detail` where `date` = "2019-10-21" limit 10 offset 0
+
+ execution time: 0.37ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.22ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.23ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.5ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.24ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.35ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.4ms; update `consume` set `amount` = "690358" where `id` = "209"
+
+ execution time: 0.37ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571643007", "2", "俊其便利店2店", "2019-10-21", "700", "", "209", "手抓饼", "花呗")
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-21"
+
+ execution time: 0.54ms; select * from `consume_detail` where `date` = "2019-10-21" limit 10 offset 0
+
+ execution time: 0.47ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.31ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.57ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.23ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.2ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.42ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.47ms; update `consume` set `amount` = "691208" where `id` = "209"
+
+ execution time: 0.36ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571643041", "2", "Redsea", "2019-10-21", "850", "", "209", "汉堡、午餐", "花呗")
+
+ execution time: 1.17ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.44ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-21"
+
+ execution time: 0.49ms; select * from `consume_detail` where `date` = "2019-10-21" limit 10 offset 0
+
+ execution time: 0.53ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.25ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.21ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.41ms; select count(*) as aggregate from `consume` where `month` = "2019-10"
+
+ execution time: 0.46ms; select * from `consume` where `month` = "2019-10" limit 20 offset 0
+
+ execution time: 0.3ms; select `name`, `id` from `consume_category`
+
+ execution time: 1.19ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.45ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.47ms; update `consume` set `amount` = "84779" where `id` = "213"
+
+ execution time: 1.13ms; insert into `consume_detail` (`create_at`, `create_uid`, `name`, `date`, `amount`, `voucher`, `consume_id`, `remark`, `label`) values ("1571643063", "2", "易通行", "2019-10-21", "400", "", "213", "常营——良乡南关", "花呗")
+
+ execution time: 1.28ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select count(*) as aggregate from `consume_detail` where `date` = "2019-10-21"
+
+ execution time: 0.54ms; select * from `consume_detail` where `date` = "2019-10-21" limit 10 offset 0
+
+ execution time: 0.55ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.36ms; select `id`, `name` from `consume_category`
+
+ execution time: 2.02ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.2ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.4ms; select count(*) as aggregate from `consume_detail`
+
+ execution time: 0.44ms; select * from `consume_detail` limit 10 offset 0
+
+ execution time: 0.34ms; select `month`, `id`, `category_id` from `consume`
+
+ execution time: 0.26ms; select `id`, `name` from `consume_category`
+
+ execution time: 1.27ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 1.18ms; select * from `admins` where `id` = "2" limit 1
+
+ execution time: 0.43ms; select exists(select * from `consume` where `month` = "2019-10") as `exists`
+
+ execution time: 0.31ms; select exists(select * from `consume_detail` where `date` like "%2019-10%") as `exists`
+
+ execution time: 0.41ms; select `category_id`, `month`, `id`, `real_amount` from `consume` where `month` = "2019-10"
+
+ execution time: 0.64ms; select `id`, SUM(real_amount) as real_amount, `month` from `consume` where `month` like "%2019%" group by `month`
+
+ execution time: 0.22ms; select `name`, `id` from `consume_category`
+
+ execution time: 0.67ms; select `id`, SUM(amount) as amount, `date` from `consume_detail` where `date` like "%2019-10%" group by `date`
+
+ execution time: 5.44ms; select `id`, SUM(amount) as amount, `consume_id`, `date` from `consume_detail` group by `consume_id`
+
+ execution time: 0.71ms; select * from `consume` where `consume`.`id` = "1" limit 1
+
+ execution time: 0.62ms; update `consume` set `update_at` = "1571671382" where `id` = "1"
+
+ execution time: 0.72ms; select * from `consume` where `consume`.`id` = "2" limit 1
+
+ execution time: 4.68ms; update `consume` set `update_at` = "1571671382" where `id` = "2"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "8" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1571671382" where `id` = "8"
+
+ execution time: 0.4ms; select * from `consume` where `consume`.`id` = "19" limit 1
+
+ execution time: 0.45ms; update `consume` set `update_at` = "1571671382" where `id` = "19"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "27" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1571671382" where `id` = "27"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "31" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571671382" where `id` = "31"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "33" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "33"
+
+ execution time: 0.49ms; select * from `consume` where `consume`.`id` = "126" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571671382" where `id` = "126"
+
+ execution time: 0.46ms; select * from `consume` where `consume`.`id` = "128" limit 1
+
+ execution time: 0.36ms; update `consume` set `update_at` = "1571671382" where `id` = "128"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "164" limit 1
+
+ execution time: 61.09ms; update `consume` set `update_at` = "1571671382" where `id` = "164"
+
+ execution time: 0.71ms; select * from `consume` where `consume`.`id` = "190" limit 1
+
+ execution time: 0.5ms; update `consume` set `update_at` = "1571671382" where `id` = "190"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "202" limit 1
+
+ execution time: 0.43ms; update `consume` set `update_at` = "1571671382" where `id` = "202"
+
+ execution time: 0.38ms; select * from `consume` where `consume`.`id` = "209" limit 1
+
+ execution time: 0.41ms; update `consume` set `real_amount` = "177106", `update_at` = "1571671382" where `id` = "209"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "210" limit 1
+
+ execution time: 0.48ms; update `consume` set `update_at` = "1571671382" where `id` = "210"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "211" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "211"
+
+ execution time: 0.81ms; select * from `consume` where `consume`.`id` = "213" limit 1
+
+ execution time: 0.31ms; update `consume` set `real_amount` = "71664", `update_at` = "1571671382" where `id` = "213"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "214" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571671382" where `id` = "214"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "215" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "215"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "219" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571671382" where `id` = "219"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "221" limit 1
+
+ execution time: 1.31ms; update `consume` set `update_at` = "1571671382" where `id` = "221"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "223" limit 1
+
+ execution time: 0.35ms; update `consume` set `update_at` = "1571671382" where `id` = "223"
+
+ execution time: 0.54ms; select * from `consume` where `consume`.`id` = "236" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "236"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "255" limit 1
+
+ execution time: 0.49ms; update `consume` set `update_at` = "1571671382" where `id` = "255"
+
+ execution time: 0.51ms; select * from `consume` where `consume`.`id` = "381" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571671382" where `id` = "381"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "535" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571671382" where `id` = "535"
+
+ execution time: 0.41ms; select * from `consume` where `consume`.`id` = "545" limit 1
+
+ execution time: 0.4ms; update `consume` set `update_at` = "1571671382" where `id` = "545"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "546" limit 1
+
+ execution time: 0.46ms; update `consume` set `update_at` = "1571671382" where `id` = "546"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "547" limit 1
+
+ execution time: 0.34ms; update `consume` set `update_at` = "1571671382" where `id` = "547"
+
+ execution time: 0.39ms; select * from `consume` where `consume`.`id` = "548" limit 1
+
+ execution time: 0.94ms; update `consume` set `update_at` = "1571671382" where `id` = "548"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "549" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "549"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "550" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571671382" where `id` = "550"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "551" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571671382" where `id` = "551"
+
+ execution time: 0.36ms; select * from `consume` where `consume`.`id` = "552" limit 1
+
+ execution time: 0.41ms; update `consume` set `update_at` = "1571671382" where `id` = "552"
+
+ execution time: 0.67ms; select * from `consume` where `consume`.`id` = "553" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "553"
+
+ execution time: 0.35ms; select * from `consume` where `consume`.`id` = "554" limit 1
+
+ execution time: 0.33ms; update `consume` set `update_at` = "1571671382" where `id` = "554"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "555" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571671382" where `id` = "555"
+
+ execution time: 0.5ms; select * from `consume` where `consume`.`id` = "556" limit 1
+
+ execution time: 0.29ms; update `consume` set `update_at` = "1571671382" where `id` = "556"
+
+ execution time: 0.52ms; select * from `consume` where `consume`.`id` = "557" limit 1
+
+ execution time: 0.31ms; update `consume` set `update_at` = "1571671382" where `id` = "557"
+
+ execution time: 0.37ms; select * from `consume` where `consume`.`id` = "560" limit 1
+
+ execution time: 1.24ms; update `consume` set `update_at` = "1571671382" where `id` = "560"
+
+ execution time: 0.47ms; select * from `consume` where `consume`.`id` = "561" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571671382" where `id` = "561"
+
+ execution time: 0.58ms; select * from `consume` where `consume`.`id` = "563" limit 1
+
+ execution time: 0.3ms; update `consume` set `update_at` = "1571671382" where `id` = "563"
+
+ execution time: 0.48ms; select * from `consume` where `consume`.`id` = "566" limit 1
+
+ execution time: 0.32ms; update `consume` set `update_at` = "1571671382" where `id` = "566"
+
