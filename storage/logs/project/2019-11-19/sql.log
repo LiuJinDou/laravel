@@ -190,3 +190,19 @@
 
  execution time: 0.43ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
 
+ execution time: 38.76ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 3.75ms; select * from `article` where `status` = "1" order by `update_at` desc limit 3 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.67ms; select * from `article` where `status` = "1" order by `update_at` desc limit 6 offset 0
+
+ execution time: 0.26ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 2.67ms; select * from `article` where `status` = "1" order by `create_at` desc limit 6 offset 0
+
+ execution time: 0.3ms; select count(*) as aggregate from `article` where `status` = "1"
+
+ execution time: 0.4ms; select * from `article` where `status` = "1" order by `browse` desc limit 6 offset 0
+
