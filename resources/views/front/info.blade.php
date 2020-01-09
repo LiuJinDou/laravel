@@ -65,6 +65,7 @@
         <div class="news_pl">
             <h2>文章评论</h2>
             <ul>
+                @include('front/comment')
             </ul>
         </div>
     </div>

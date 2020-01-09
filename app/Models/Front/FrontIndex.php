@@ -42,15 +42,16 @@ class FrontIndex extends Model{
 
         return $return;
     }
-    public function getMessage($page,$limit){
+    public function getMessage($page,$limit,$article_id){
+        $rst = app('Message')->where('article_id','=',$article_id)->where('status','=',1)->orderBy('create_at', 'desc')->paginate($limit)->toArray();
 
-        $rst = app('Message')->where('status','=',1)->orderBy('create_at', 'desc')->paginate($limit)->toArray();
         $return['message'] = $rst['data'];
         $return['count'] = $rst['total'];
 
         return $return;
     }
     public function addMessage($request){
+        $id = $request->input('article_id',0);
         $name = $request->input('name');
         $content = $request->input('content');
         $headpic = $request->input('headpic');
@@ -62,6 +63,7 @@ class FrontIndex extends Model{
             Redis::set('client_ip'.$client_ip, time());
         }
         $message = app('Message');
+        $message->article_id = $id;
         $message->name = $name;
         $message->content = htmlspecialchars($content);
         $message->headpic = $headpic;

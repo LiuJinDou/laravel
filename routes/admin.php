@@ -136,6 +136,7 @@ Route::namespace('Admin')->middleware('admin.auth')->group(function () {
     $this->post('/consume/detailList', 'ConsumeController@detailList');
     $this->post('/consume/detailSave', 'ConsumeController@detailSave');
     $this->post('/consume/detailDel', 'ConsumeController@detailDel');
+    $this->post('/consume/detailExport', 'ConsumeController@detailExport');
     $this->post('/consume/echars', 'ConsumeController@echars');
     $this->get('/consume/echars', function (){
         return view('admin/consume_echars');

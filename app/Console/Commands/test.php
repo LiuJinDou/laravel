@@ -38,6 +38,13 @@ class test extends Command
      */
     public function handle()
     {
-        Log::info('这是我写的log');
+        $worker= new \GearmanWorker();
+        $worker->addServer();
+        $worker->addFunction("reverse", function ($job) {
+            $result = strrev($job->workload());
+            Log::info("接受的参数：\t".$result."\n");
+            return ($result);
+        });
+        while ($worker->work());
     }
 }

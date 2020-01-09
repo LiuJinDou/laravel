@@ -159,7 +159,7 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload','tab
             date = obj.data.date== null ? '' : obj.data.date;
             consume_id = obj.data.consume_id == null ? 0 : obj.data.consume_id;
             voucher = obj.data.voucher == null ? '' : obj.data.voucher;
-            amount = obj.data.amount == null ? 0 : obj.data.amount;
+            amount = obj.data.amount == null ? 0 : parseInt(obj.data.amount / 100);
             remark = obj.data.remark == null ? '' : obj.data.remark;
             label = obj.data.label == null ? '' : obj.data.label;
             consume_option = '<option value="'+obj.data.consume_id+'" >'+obj.data.month+'</option>';
@@ -188,7 +188,7 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload','tab
             '    <div class="layui-form-item">\n' +
             '        <label class="layui-form-label">金额</label>\n' +
             '        <div class="layui-input-block">\n' +
-            '            <input type="number" name="amount" value="'+amount+'" lay-verify="required"  placeholder="实际*100" autocomplete="off" class="layui-input">\n' +
+            '            <input type="number" name="amount" value="'+amount+'" lay-verify="required"  placeholder="" autocomplete="off" class="layui-input" onkeyup="value=value.replace(/^\\D*(\\d*(?:\\.\\d{0,2})?).*$/g, \'$1\')" >\n' +
             '        </div>\n' +
             '    </div>\n' +
             '    <div class="layui-form-item">\n' +
@@ -299,4 +299,19 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload','tab
             }
         });
     }
+
+
+    /**
+     * export detail
+     */
+    $('.export_detail').on('click',function () {
+        $.ajax({
+            url:'/admin/consume/detailExport',
+            type:'POST',
+            data:{_token: _token},
+            success:function (e) {
+                layer.msg(e.msg);
+            }
+        })
+    })
 });

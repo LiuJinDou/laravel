@@ -14,7 +14,10 @@
 Route::namespace('Front')->group(function () {
     //登录接口
     $this->get('/', 'IndexController@index');
-    $this->get('/test', 'IndexController@test');
+//    $this->get('/test', 'IndexController@test');
+    $this->get('/test', 'TestController@test');
+    $this->get('/client', 'TestController@client');
+    $this->get('/worker', 'TestController@worker');
 //    Route::get('/', function () {
 //        return view('welcome');
 //    });
@@ -28,6 +31,11 @@ Route::namespace('Front')->group(function () {
     $this->get('/front/info', 'IndexController@info');
     $this->get('/front/search', 'IndexController@search');
     $this->post('/front/love', 'IndexController@love');
+
+    $this->get('front/chat',function (){
+        return view('front/chat/index');
+    });
+    $this->get('/front/chat/getList', 'Chat\ChatController@getList');
 });
 
 

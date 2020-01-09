@@ -174,6 +174,26 @@ class ConsumeController extends Controller
         return  $data;
 
     }
+
+    /**
+     * export detail
+     * @param Request $request
+     * @return mixed
+     */
+    public function detailExport(Request $request){
+        $data['code'] = 0;
+        $data['msg'] = 'ok';
+        try {
+            //视图间共享数据
+            $data['data'] = app('ConsumeDetail')->detailExport();
+        }catch (\Exception $e) {
+            $data['code'] = $e->getCode();
+            $data['msg'] = $e->getMessage();
+        }
+
+        return  $data;
+    }
+
     /**
      * Category list
      * @return mixed

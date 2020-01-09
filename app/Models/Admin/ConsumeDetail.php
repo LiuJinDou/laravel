@@ -80,6 +80,11 @@ class ConsumeDetail extends Model {
         $voucher = $request->input('voucher');
         $remark = $request->input('remark');
         $label = $request->input('label');
+        $amount_reg = '/^[1-9]\d*|^[1-9]\d*.\d+[1-9]$/';
+        if(!preg_match($amount_reg, $amount)){
+            throw  new  \Exception('Amount style error',2001);
+
+        }
         if ($id > 0) {
             $detail =  self::find($id);
             $detail->update_at = time();
@@ -91,7 +96,7 @@ class ConsumeDetail extends Model {
         }
         $detail->name = $name;
         $detail->date = $date;
-        $detail->amount = $amount;
+        $detail->amount = bcmul($amount,100);
         $detail->voucher = $voucher;
         $detail->consume_id = $consume_id;
         $detail->remark = $remark;
@@ -105,6 +110,23 @@ class ConsumeDetail extends Model {
             throw  new \Exception($exception->getMessage(),$exception->getCode());
         }
 
+    }
+
+    public function detailExport(){
+        $config = [
+            'path' => './tests'
+        ];
+
+        $fileObject  = new \Vtiful\Kernel\Excel($config);
+
+        $file = $fileObject->fileName('tutorial.xlsx', 'sheet_one')
+            ->header(['name', 'age'])
+            ->data([
+                ['viest', 23],
+                ['wjx', 23],
+            ]);
+
+        $path = $file->output();
     }
 
 }

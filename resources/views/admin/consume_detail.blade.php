@@ -13,6 +13,7 @@
     </div>
     <button class="layui-btn layui-btn-warm" data-type="reload">Search</button>
     <button class="layui-btn add_detail" data-type="add_detail">addDetail</button>
+    <button class="layui-btn export_detail" data-type="export_detail">exportDetail</button>
 </div>
 <table class="layui-hide" id="detail_list" lay-filter="detail_list"></table>
 

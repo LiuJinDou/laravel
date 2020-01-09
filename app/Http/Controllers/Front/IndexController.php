@@ -112,10 +112,11 @@ class IndexController extends Controller
         if ($request->isMethod('post')){
             $limit = $request->input('limit',10);
             $page = $request->input('page',1);
+            $article_id = $request->input('article_id',0);
             $data['code'] = 0;
             $data['msg'] = 'ok';
             try {
-                $data['data'] = app('FrontIndex')->getMessage($page,$limit);
+                $data['data'] = app('FrontIndex')->getMessage($page,$limit,$article_id);
 
             }catch (\Exception $e) {
                 $data['code'] = $e->getCode();

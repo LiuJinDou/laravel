@@ -213,7 +213,7 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload','tab
             '        <div class="layui-input-inline">\n' +
             '           <div class="layui-upload">\n' +
             '            <button type="button" class="layui-btn" id="article_image"><i class="layui-icon">&#xe67c;</i>上传图片</button> <img src="'+image+'" alt="" class="head" width="50px;" height="50px;">\n' +
-            '            <input type="hidden" name="image" value="'+image+'"  required  lay-verify="required" class="layui-input">              </div>\n' +
+            '            <input type="hidden" name="image" value="'+image+'"  class="layui-input">              </div>\n' +
             '        </div>\n' +
             '    </div>\n' +
             '    <div class="layui-form-item">\n' +

@@ -123,8 +123,4 @@
         </div>
     </div>
 </article>
-<footer>
-    <p>Design by <a href="/">杨青个人博客</a> <a href="/">备案号：京ICP备18056417号-1</a></p>
-</footer>
-</body>
-</html>
+<?php echo $__env->make('front/footer', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

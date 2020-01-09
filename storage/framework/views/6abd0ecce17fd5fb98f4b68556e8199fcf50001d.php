@@ -66,6 +66,7 @@
         <div class="news_pl">
             <h2>文章评论</h2>
             <ul>
+                <?php echo $__env->make('front/comment', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
             </ul>
         </div>
     </div>

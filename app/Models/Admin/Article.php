@@ -147,7 +147,7 @@ class Article extends Model {
         }
         $article->title = $title;
         $article->category_id = $category_id;
-        $article->image = $image;
+        $article->image = $image ?: '/upload/image/2019-10-11/156cad83d7bca79fda46c0d6ecafb5b7.jpg';
         $article->introduction = $introduction;
         $article->tags = $tags;
         $article->content = $content;

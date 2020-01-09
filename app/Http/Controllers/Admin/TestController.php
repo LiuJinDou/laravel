@@ -11,6 +11,7 @@ use Illuminate\Http\Storage;
 class TestController extends Controller
 {
     public function test(){
-        var_dump(function_exists('test_method'));
+
+        var_dump(function_exists('httpRequest'));
     }
 }

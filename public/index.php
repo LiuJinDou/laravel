@@ -7,7 +7,12 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 define('LARAVEL_START', microtime(true));
+
+$_SERVER['TOTAL'] = shell_exec("free | awk '/Mem/{print $2}'");
+$_SERVER['USED'] = shell_exec("free | awk '/Mem/{print $3}'");
+$_SERVER['FREE'] = shell_exec("free | awk '/Mem/{print $4}'");
 require '/usr/local/config/blog.config.php';
+
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader

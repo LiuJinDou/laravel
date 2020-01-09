@@ -1,7 +1,10 @@
 @include('admin/header')
 <div class="x-body layui-anim layui-anim-up">
     <blockquote class="layui-elem-quote">欢迎管理员：
-        <span class="a-user">{{ auth('admin')->user()->name }}</span>！ <span id="nowtime"></span></blockquote>
+        <span class="a-user">{{ auth('admin')->user()->name }}</span>！
+        <span id="nowtime"></span>
+        <span id="success"></span>
+    </blockquote>
     <fieldset class="layui-elem-field">
         <legend>数据统计</legend>
         <div class="layui-field-box">
@@ -30,7 +33,7 @@
                 </tr>
                 <tr>
                     <td >
-                        <a class="x-a" href="/" target="_blank">交流qq:(1000100010)</a>
+                        <a class="x-a" href="/" target="_blank">交流qq:(1975876584)</a>
                     </td>
                 </tr>
                 </tbody>
@@ -73,8 +76,8 @@
                     <th>执行时间限制</th>
                     <td>30s</td></tr>
                 <tr>
-                    <th>剩余空间</th>
-                    <td>86015.2M</td></tr>
+                    <th>内存信息</th>
+                    <td>总内存：{{bcdiv((int)$_SERVER['TOTAL'],bcmul(1024,1024),2)}}G&nbsp;&nbsp;&nbsp;已使用：{{bcdiv((int)$_SERVER['USED'],bcmul(1024,1024),2)}}G&nbsp;&nbsp;&nbsp;剩余：{{bcdiv((int)$_SERVER['FREE'],bcmul(1024,1024),2)}}G</td></tr>
                 </tbody>
             </table>
         </div>
@@ -91,7 +94,7 @@
                 </tr>
                 <tr>
                     <th>开发者</th>
-                    <td>Shadow(11975876584@qq.com)</td></tr>
+                    <td>Shadow(1975876584@qq.com)</td></tr>
                 </tbody>
             </table>
         </div>

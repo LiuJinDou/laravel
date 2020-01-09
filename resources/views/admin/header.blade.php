@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/css/admin/ladmin.css">
     <script  src="/js/jquery.min.js"></script>
     <script src="/js/layui/layui.js"></script>
-    <script src="http://echarts.baidu.com/dist/echarts.js"></script>
+    <script src="/third/incubator-echarts/dist/echarts.js"></script>
     <script src="/js/common.js"></script>
     <script src="/js/admin/ladmin.js"></script>
 </head>

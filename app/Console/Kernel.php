@@ -28,7 +28,7 @@ class Kernel extends ConsoleKernel
         date_default_timezone_set('Asia/Shanghai');
         // $schedule->command('inspire')
         //          ->hourly();
-//        $schedule->command('test')->everyMinute();
+//        $schedule->command('test')->cron('* * * * * *');
         /**
          * Everyday update consume total amount
          */
