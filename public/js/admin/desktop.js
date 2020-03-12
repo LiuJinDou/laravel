@@ -21,7 +21,6 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload'], fu
                     '                                        </a>\n' +
                     '                                    </li>';
                 })
-                console.log(statistics_str);
                 $('.layui-card-body ul').append(statistics_str);
             }
         }

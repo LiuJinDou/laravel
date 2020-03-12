@@ -5,7 +5,7 @@ layui.use(['form', 'layedit', 'laydate','element','jquery','layer','upload','tab
         upload = layui.upload,
         element = layui.element,
         $ = layui.jquery;
-    var E = window.wangEditor
+    var E = window.wangEditor;
     var editor;
     var ue;
     var _token = $('.token').attr("_token");

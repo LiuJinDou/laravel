@@ -346,3 +346,5 @@
         });
     });
 </script>
+<script type="text/javascript" src="/third/echarts.min.js"></script>
+
